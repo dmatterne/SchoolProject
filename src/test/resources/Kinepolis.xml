@@ -8,4 +8,11 @@
     <Flm_ratings fra_id = "-2" fra_name="Bad" />
     <Flm_ratings fra_id = "-3" fra_name="Good" />
     <Flm_ratings fra_id = "-4" fra_name="Very Good" />
+    <Sounds snd_id = "-1" snd_name="Stereo" />
+    <Sounds snd_id = "-2" snd_name="Surround" />
+    <Sounds snd_id = "-3" snd_name="Other" />
+    <Subtitles sbt_id = "-1" sbt_name="Dutch" />
+    <Subtitles sbt_id = "-2" sbt_name="French" />
+    <Subtitles sbt_id = "-3" sbt_name="German" />
+
 </dataset>
