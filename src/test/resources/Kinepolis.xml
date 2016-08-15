@@ -14,5 +14,42 @@
     <Subtitles sbt_id = "-1" sbt_name="Dutch" />
     <Subtitles sbt_id = "-2" sbt_name="French" />
     <Subtitles sbt_id = "-3" sbt_name="German" />
-
+    <Formats frm_id = "-1" frm_name = "HD" />
+    <Formats frm_id = "-2" frm_name = "4K" />
+    <Formats frm_id = "-3" frm_name = "3D" />
+    <Distributors DST_ID = "-1" CNT_ID = "-2" DST_NAME  = "20th Century Fox" DST_ADDRESS = "10201 W. Pico Blvd."
+                  DST_ZIPCODE = "CA 90035" DST_CITY = "Los Angeles" DST_PHONE = "31036910"
+                  DST_FAX = "31036987" DST_EMAIL = "Example@fox.com" DST_CONTACT = "Vos Fox" />
+    <Distributors DST_ID = "-2" CNT_ID = "-3" DST_NAME  = "Warner Bros" DST_ADDRESS = "4000 Warner Blvd Bldg 505"
+                  DST_ZIPCODE = "CA 91522" DST_CITY = "Burbank" DST_PHONE = "81895460"
+                  DST_FAX = "81898675" DST_EMAIL = "privacy@wb.com" DST_CONTACT = "Barny Wos" />
+    <Distributors DST_ID = "-3" CNT_ID = "-1" DST_NAME  = "Columbia Tristar" DST_ADDRESS = "10202 West Washington Blvd."
+                  DST_ZIPCODE = "CA 90232" DST_CITY = "Culver City" DST_PHONE = "31024440"
+                  DST_FAX = "31024426" DST_EMAIL = "email@CTristar.com" DST_CONTACT = "Columbus Rastir" />
+    <Languages lng_id="-1" lng_language="English" />
+    <Languages lng_id="-2" lng_language="German" />
+    <Languages lng_id="-3" lng_language="French" />
+    <Languages lng_id="-4" lng_language="Swahili" />
+    <Languages lng_id="-5" lng_language="Dutch" />
+    <Languages lng_id="-6" lng_language="Japanese" />
+    <Genres gnr_id = "-1" gnr_description = "Kids@Movies"/>
+    <Genres gnr_id = "-2" gnr_description = "Comedy"/>
+    <Genres gnr_id = "-3" gnr_description = "Horror"/>
+    <Genres gnr_id = "-4" gnr_description = "Drama"/>
+    <Genres gnr_id = "-5" gnr_description = "Actie"/>
+    <Genres gnr_id = "-6" gnr_description = "Thriller"/>
+    <Genres gnr_id = "-7" gnr_description = "SciFi"/>
+    <Genres gnr_id = "-8" gnr_description = "Concert"/>
+    <Flm_info fli_id = "-1" fli_name = "The Lion King" fli_length = "120" fli_website = "www.thelionking.com"
+    fli_description = "Een hartverwarmende film over een lief leeuwtje wiens vader op vreselijke wijze sterft" fli_color = "Y" fli_releasedate = "2000-01-01"
+    fli_soundtrack = "Elton John - Can you feel the love
+        tonight" fli_format = "OV" fli_price = "10"
+    fli_targetgroup = "Kids" gnr_id = "-2" fli_productionhouse = "Miramax"
+    cnt_id = "-4" dst_id = "-3"/>
+    <Flm_info fli_id = "-2" fli_name = "SAW 2" fli_length = "170" fli_website = "www.sawthemovie.com"
+    fli_description = "Een hartverwarmende film over een psychopate haai" fli_color = "Y" fli_releasedate = "1990-01-01"
+    fli_soundtrack = "Geen" fli_format = "Old" fli_price = "1"
+    fli_targetgroup = "Adults" gnr_id = "-3" fli_productionhouse = "Paramount"
+    cnt_id = "-1" dst_id = "-2"/>
 </dataset>
+

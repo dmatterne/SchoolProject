@@ -17,7 +17,7 @@ public class Sounds {
     @Column(name="SND_ID")
     private int snd_id;
 
-    @Column(name="SND_NAME", nullable = false, unique = true)
+    @Column(name="SND_NAME", nullable = false, unique = true, length = 10)
     private String snd_name;
 
     public Sounds() {

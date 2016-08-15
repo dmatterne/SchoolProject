@@ -13,16 +13,17 @@ public class Country {
     //@GeneratedValue(strategy= GenerationType.IDENTITY)
     @GeneratedValue(strategy=GenerationType.SEQUENCE, generator = "SEQ_CNT")
     @SequenceGenerator(name = "SEQ_CNT", sequenceName = "SEQ_CNT")
+    @Column (name = "CNT_ID", length = 3)
     private int cnt_id;
 
 
-    @Column(name = "CNT_NAME", nullable = false)
+    @Column(name = "CNT_NAME", nullable = false, length = 15)
     private String cnt_name;
 
-    @Column(name = "CNT_CURRENCY", nullable = false)
+    @Column(name = "CNT_CURRENCY", nullable = false, length = 3)
     private String cnt_currency;
 
-    @Column(name = "CNT_TAX", nullable = false)
+    @Column(name = "CNT_TAX", nullable = false, length = 3)
     private int cnt_tax;
 
 

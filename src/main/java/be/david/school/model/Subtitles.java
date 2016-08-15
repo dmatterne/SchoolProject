@@ -15,7 +15,7 @@ public class Subtitles {
     @Column(name = "SBT_ID")
     private int sbt_id;
 
-    @Column(name = "SBT_NAME", nullable = false, unique = true)
+    @Column(name = "SBT_NAME", nullable = false, unique = true, length = 10)
     private String sbt_name;
 
     public Subtitles() {
