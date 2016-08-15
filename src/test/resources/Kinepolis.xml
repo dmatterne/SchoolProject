@@ -1,0 +1,11 @@
+<dataset>
+    <Countries cnt_id = "-1" cnt_name="Amerika" CNT_CURRENCY="$" CNT_TAX="3" />
+    <Countries cnt_id = "-2" cnt_name="Belgium" CNT_CURRENCY="€" CNT_TAX="5" />
+    <Countries cnt_id = "-3" cnt_name="The Netherlands" CNT_CURRENCY="€" CNT_TAX="10" />
+    <Countries cnt_id = "-4" cnt_name="France" CNT_CURRENCY="€" CNT_TAX="9" />
+    <Countries cnt_id = "-5" cnt_name="Germany" CNT_CURRENCY="€" CNT_TAX="7" />
+    <Flm_ratings fra_id = "-1" fra_name="Very Bad" />
+    <Flm_ratings fra_id = "-2" fra_name="Bad" />
+    <Flm_ratings fra_id = "-3" fra_name="Good" />
+    <Flm_ratings fra_id = "-4" fra_name="Very Good" />
+</dataset>

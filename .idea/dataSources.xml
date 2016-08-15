@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1399270494">
+    <data-source source="LOCAL" name="Kinepolis" uuid="c77bf1e2-6ce9-4e27-ba7a-93654e8c8717">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@//localhost:1521/PERSONALDB</jdbc-url>
+    </data-source>
+  </component>
+</project>
