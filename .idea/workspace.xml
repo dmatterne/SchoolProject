@@ -2,37 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86871344-ca25-42fe-baac-9099e22762d4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/bean/Cmp_FeaturesRepositoryBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/bean/DiscountsRepositoryBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/model/Photos.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/model/Users.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository/Cmp_FeaturesRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository/DiscountsRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/be/david/school/Cmp_featuresPersistenceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/be/david/school/DiscountsPersistenceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Cmp_features.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/model/Cmp_features.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Cmp_languages.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/model/Cmp_languages.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Customers.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/model/Customers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Discounts.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/model/Discounts.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Flm_awards.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/model/Flm_awards.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Flm_crews.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/model/Flm_crews.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Flm_reviews.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/model/Flm_reviews.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Flm_scores.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/model/Flm_scores.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Hll_complex.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/model/Hll_complex.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Lng_versions.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/model/Lng_versions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Logins.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/model/Logins.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Ntn_films.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/model/Ntn_films.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Persons.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/model/Persons.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Programming.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/model/Programming.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Roles.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/model/Roles.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Scores.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/model/Scores.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Tickets.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/model/Tickets.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Trailers.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/model/Trailers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/be/david/school/Lng_versionsPersistenceTest.java" afterPath="$PROJECT_DIR$/src/test/java/be/david/school/Lng_versionsPersistenceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/be/david/school/Ntn_filmsPersistenceTest.java" afterPath="$PROJECT_DIR$/src/test/java/be/david/school/Ntn_filmsPersistenceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/be/david/school/Org_filmsPersistenceTest.java" afterPath="$PROJECT_DIR$/src/test/java/be/david/school/Org_filmsPersistenceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/Kinepolis.xml" afterPath="$PROJECT_DIR$/src/test/resources/Kinepolis.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/CreateKinepolis.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/DropKinepolis.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/FunctionKinepolis.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/IndexKinepolis.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/ModifyKinepolis.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Nieuw tekstdocument.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/ProcedKinepolis.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SequenceKinepolis.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/SynonKinepolis.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/TriggerKinepolis.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/TriggersKinepolis.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/ViewKinepolis.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/insertKinepolis.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/startKinepolis1.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/startKinepolis2.sql" />
     </list>
     <ignored path="SchoolProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -100,7 +84,7 @@
       <file leaf-file-name="Logins.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/model/Logins.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
+            <state relative-caret-position="154">
               <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
               <folding />
             </state>
@@ -244,10 +228,6 @@
               <option name="myItemId" value="SchoolProject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -256,176 +236,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="SchoolProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="school" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="school" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="school" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="school" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bean" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -444,6 +254,9 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="DDL Data Source&#10;Oracle" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitProjects\SchoolProject\Data" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="be.david.school" />
       <recent name="be.david.school.bean" />
@@ -1034,7 +847,7 @@
       <workItem from="1471177162212" duration="1614000" />
       <workItem from="1471261841449" duration="914000" />
       <workItem from="1471263012133" duration="20896000" />
-      <workItem from="1471385872942" duration="1519000" />
+      <workItem from="1471385872942" duration="1620000" />
     </task>
     <task id="LOCAL-00001" summary="Added Files - FILM_RATINGS and COUNTRIES">
       <created>1471268057553</created>
@@ -1100,7 +913,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24943000" />
+    <option name="totallyTimeSpent" value="25044000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1932" height="1048" extended-state="0" />
@@ -1115,9 +928,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21567568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14269535" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14269535" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1647,7 +1460,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/model/Logins.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
+        <state relative-caret-position="154">
           <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
           <folding />
         </state>
