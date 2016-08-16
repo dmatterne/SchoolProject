@@ -30,6 +30,6 @@ public class Org_filmsPersistenceTest extends DataSetPersistenceTest {
     public void FindAllOrg_films() {
         Org_filmsRepository org = new Org_filmsRepositoryBean(entityManager());
         List<Org_films> orgs = org.findAllOrg_films();
-        assertEquals(3, orgs.size());
+        assertEquals(2, orgs.size());
     }
 }

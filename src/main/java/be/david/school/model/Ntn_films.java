@@ -24,8 +24,9 @@ public class Ntn_films {
 
     @OneToOne
     @JoinColumn(name = "FRA_ID")
-    private Formats fra_id;
+    private Flm_ratings fra_id;
 
+    @Enumerated(EnumType.STRING)
     @Column(name = "NTF_STATUS", length = 11, nullable = false)
     private FilmStatus ntf_status;
 
@@ -35,7 +36,7 @@ public class Ntn_films {
     public Ntn_films() {
     }
 
-    public Ntn_films(String ntf_name, Org_films orf_id, Formats fra_id, FilmStatus ntf_status, int ntf_ages) {
+    public Ntn_films(String ntf_name, Org_films orf_id, Flm_ratings fra_id, FilmStatus ntf_status, int ntf_ages) {
         this.ntf_name = ntf_name;
         this.orf_id = orf_id;
         this.fra_id = fra_id;
@@ -67,11 +68,11 @@ public class Ntn_films {
         this.orf_id = orf_id;
     }
 
-    public Formats getFra_id() {
+    public Flm_ratings getFra_id() {
         return fra_id;
     }
 
-    public void setFra_id(Formats fra_id) {
+    public void setFra_id(Flm_ratings fra_id) {
         this.fra_id = fra_id;
     }
 

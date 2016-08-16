@@ -30,6 +30,6 @@ public class Lng_versionsPersistenceTest extends DataSetPersistenceTest {
     public void FindAllLng_versions() {
         Lng_versionsRepository lv = new Lng_versionsRepositoryBean(entityManager());
         List<Lng_versions> lvs = lv.findAllLng_versions();
-        assertEquals(3, lvs.size());
+        assertEquals(2, lvs.size());
     }
 }

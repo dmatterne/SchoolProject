@@ -30,6 +30,6 @@ public class Ntn_filmsPersistenceTest extends DataSetPersistenceTest {
     public void FindAllNtn_films() {
         Ntn_filmsRepository nf = new Ntn_filmsRepositoryBean(entityManager());
         List<Ntn_films> nfs = nf.findAllNtn_films();
-        assertEquals(3, nfs.size());
+        assertEquals(2, nfs.size());
     }
 }

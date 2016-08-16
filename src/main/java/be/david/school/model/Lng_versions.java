@@ -25,8 +25,8 @@ public class Lng_versions {
     private Country cnt_id;
 
     @OneToOne
-    @JoinColumn(name = "NTN_ID")
-    private Ntn_films Ntn_id;
+    @JoinColumn(name = "NTF_ID")
+    private Ntn_films Ntf_id;
 
     @OneToOne
     @JoinColumn(name = "SND_ID")
@@ -53,10 +53,10 @@ public class Lng_versions {
     public Lng_versions() {
     }
 
-    public Lng_versions(String lnv_name, Country cnt_id, Ntn_films ntn_id, Sounds snd_id, Subtitles sbt_id, Formats frm_id, Languages lng_id, LocalDate lnv_releasedate, int lnv_length) {
+    public Lng_versions(String lnv_name, Country cnt_id, Ntn_films ntf_id, Sounds snd_id, Subtitles sbt_id, Formats frm_id, Languages lng_id, LocalDate lnv_releasedate, int lnv_length) {
         this.lnv_name = lnv_name;
         this.cnt_id = cnt_id;
-        Ntn_id = ntn_id;
+        Ntf_id = ntf_id;
         this.snd_id = snd_id;
         Sbt_id = sbt_id;
         this.frm_id = frm_id;
@@ -89,12 +89,12 @@ public class Lng_versions {
         this.cnt_id = cnt_id;
     }
 
-    public Ntn_films getNtn_id() {
-        return Ntn_id;
+    public Ntn_films getNtf_id() {
+        return Ntf_id;
     }
 
-    public void setNtn_id(Ntn_films ntn_id) {
-        Ntn_id = ntn_id;
+    public void setNtn_id(Ntn_films ntf_id) {
+        Ntf_id = ntf_id;
     }
 
     public Sounds getSnd_id() {

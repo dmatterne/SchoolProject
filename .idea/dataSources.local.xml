@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Kinepolis" uuid="c77bf1e2-6ce9-4e27-ba7a-93654e8c8717">
+      <secret-storage>master_key</secret-storage>
+      <user-name>Kinepolis</user-name>
+      <introspection-scope>*:KINEPOLIS,PUBLIC,SYS,SYSTEM</introspection-scope>
+      <resolve-scope>*:KINEPOLIS,PUBLIC</resolve-scope>
+    </data-source>
+  </component>
+</project>
