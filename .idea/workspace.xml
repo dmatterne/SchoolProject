@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86871344-ca25-42fe-baac-9099e22762d4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/be/david/school/CustomersPersistenceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/be/david/school/Flm_awardsPersistenceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/be/david/school/Flm_crewsPersistenceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/be/david/school/Flm_reviewsPersistenceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/be/david/school/Flm_scoresPersistenceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/be/david/school/Hll_complexPersistenceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/be/david/school/LoginsPersistenceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/be/david/school/PersonsPersistenceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/be/david/school/PhotosPersistenceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/be/david/school/ProgrammingPersistenceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/be/david/school/RolesPersistenceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/be/david/school/ScoresPersistenceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/be/david/school/TicketsPersistenceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/be/david/school/TrailersPersistenceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/be/david/school/UsersPersistenceTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/be/david/school/model/Cmp_languages.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/be/david/school/CustomersPersistenceTest.java" afterPath="$PROJECT_DIR$/src/test/java/be/david/school/CustomersPersistenceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/be/david/school/Hll_complexPersistenceTest.java" afterPath="$PROJECT_DIR$/src/test/java/be/david/school/Hll_complexPersistenceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/be/david/school/ProgrammingPersistenceTest.java" afterPath="$PROJECT_DIR$/src/test/java/be/david/school/ProgrammingPersistenceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/Kinepolis.xml" afterPath="$PROJECT_DIR$/src/test/resources/Kinepolis.xml" />
     </list>
     <ignored path="SchoolProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,21 +37,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ProgrammingPersistenceTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/be/david/school/ProgrammingPersistenceTest.java">
+      <file leaf-file-name="Kinepolis.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/Kinepolis.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="328">
+              <caret line="104" column="57" selection-start-line="104" selection-start-column="57" selection-end-line="104" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PhotosPersistenceTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/be/david/school/PhotosPersistenceTest.java">
+      <file leaf-file-name="ProgrammingPersistenceTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/be/david/school/ProgrammingPersistenceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="382">
+              <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hll_complexPersistenceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/be/david/school/Hll_complexPersistenceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Programming.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/model/Programming.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomersPersistenceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/be/david/school/CustomersPersistenceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="insertKinepolis.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data/insertKinepolis.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="294" column="0" selection-start-line="294" selection-start-column="0" selection-end-line="299" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -88,8 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/be/david/school/Cmp_featuresPersistenceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/david/school/model/Cmp_features.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/david/school/bean/Cmp_FeaturesRepositoryBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/david/school/model/Tickets.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/david/school/repository/TrailersRepository.java" />
@@ -130,14 +158,16 @@
         <option value="$PROJECT_DIR$/src/test/java/be/david/school/TicketsPersistenceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/be/david/school/ScoresPersistenceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/be/david/school/RolesPersistenceTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/be/david/school/CustomersPersistenceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/be/david/school/Flm_awardsPersistenceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/be/david/school/Flm_crewsPersistenceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/be/david/school/Flm_reviewsPersistenceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/be/david/school/Flm_scoresPersistenceTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/be/david/school/Hll_complexPersistenceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/be/david/school/PersonsPersistenceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/be/david/school/PhotosPersistenceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/be/david/school/CustomersPersistenceTest.java" />
+        <option value="$PROJECT_DIR$/Data/insertKinepolis.sql" />
+        <option value="$PROJECT_DIR$/src/test/java/be/david/school/Hll_complexPersistenceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/Kinepolis.xml" />
         <option value="$PROJECT_DIR$/src/test/java/be/david/school/ProgrammingPersistenceTest.java" />
       </list>
     </option>
@@ -293,10 +323,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -316,11 +342,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
+              <option name="myItemId" value="school" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -350,33 +376,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="repository" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="school" />
+              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -413,8 +413,8 @@
       <recent name="D:\GitProjects\SchoolProject\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Cmp_featuresPersistenceTest.FindAllCmp_featuresLanguages">
-    <configuration default="false" name="Cmp_featuresPersistenceTest.FindAllCmp_features" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ProgrammingPersistenceTest.FindAllProgramming">
+    <configuration default="false" name="CustomersPersistenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="be.david.school.*" />
@@ -425,33 +425,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="be.david.school" />
-      <option name="MAIN_CLASS_NAME" value="be.david.school.Cmp_featuresPersistenceTest" />
-      <option name="METHOD_NAME" value="FindAllCmp_features" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="DiscountsPersistenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="be.david.school.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SchoolProject" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="be.david.school" />
-      <option name="MAIN_CLASS_NAME" value="be.david.school.DiscountsPersistenceTest" />
+      <option name="MAIN_CLASS_NAME" value="be.david.school.CustomersPersistenceTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -466,7 +440,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="DiscountsPersistenceTest.FindAllDiscounts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="CustomersPersistenceTest.FindAllCountries" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="be.david.school.*" />
@@ -477,8 +451,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="be.david.school" />
-      <option name="MAIN_CLASS_NAME" value="be.david.school.DiscountsPersistenceTest" />
-      <option name="METHOD_NAME" value="FindAllDiscounts" />
+      <option name="MAIN_CLASS_NAME" value="be.david.school.CustomersPersistenceTest" />
+      <option name="METHOD_NAME" value="FindAllCountries" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -492,7 +466,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="Cmp_featuresPersistenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Hll_complexPersistenceTest.FindAllHll_complex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="be.david.school.*" />
@@ -503,7 +477,33 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="be.david.school" />
-      <option name="MAIN_CLASS_NAME" value="be.david.school.Cmp_featuresPersistenceTest" />
+      <option name="MAIN_CLASS_NAME" value="be.david.school.Hll_complexPersistenceTest" />
+      <option name="METHOD_NAME" value="FindAllHll_complex" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Hll_complexPersistenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="be.david.school.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SchoolProject" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="be.david.school" />
+      <option name="MAIN_CLASS_NAME" value="be.david.school.Hll_complexPersistenceTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -518,7 +518,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="Cmp_featuresPersistenceTest.FindAllCmp_featuresLanguages" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ProgrammingPersistenceTest.FindAllProgramming" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="be.david.school.*" />
@@ -529,8 +529,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="be.david.school" />
-      <option name="MAIN_CLASS_NAME" value="be.david.school.Cmp_featuresPersistenceTest" />
-      <option name="METHOD_NAME" value="FindAllCmp_featuresLanguages" />
+      <option name="MAIN_CLASS_NAME" value="be.david.school.ProgrammingPersistenceTest" />
+      <option name="METHOD_NAME" value="FindAllProgramming" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -959,19 +959,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.Cmp_featuresPersistenceTest.FindAllCmp_features" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.DiscountsPersistenceTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.DiscountsPersistenceTest.FindAllDiscounts" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Cmp_featuresPersistenceTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Cmp_featuresPersistenceTest.FindAllCmp_featuresLanguages" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CustomersPersistenceTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CustomersPersistenceTest.FindAllCountries" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Hll_complexPersistenceTest.FindAllHll_complex" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Hll_complexPersistenceTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ProgrammingPersistenceTest.FindAllProgramming" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Cmp_featuresPersistenceTest.FindAllCmp_featuresLanguages" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Cmp_featuresPersistenceTest.FindAllCmp_features" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Cmp_featuresPersistenceTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.DiscountsPersistenceTest.FindAllDiscounts" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.DiscountsPersistenceTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ProgrammingPersistenceTest.FindAllProgramming" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Hll_complexPersistenceTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Hll_complexPersistenceTest.FindAllHll_complex" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CustomersPersistenceTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CustomersPersistenceTest.FindAllCountries" />
       </list>
     </recent_temporary>
   </component>
@@ -994,7 +994,7 @@
       <workItem from="1471385872942" duration="1620000" />
       <workItem from="1471436777783" duration="4813000" />
       <workItem from="1471465151730" duration="550000" />
-      <workItem from="1471465744269" duration="5612000" />
+      <workItem from="1471465744269" duration="6990000" />
     </task>
     <task id="LOCAL-00001" summary="Added Files - FILM_RATINGS and COUNTRIES">
       <created>1471268057553</created>
@@ -1028,39 +1028,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Cmp_featuresPersistenceTest - 2016.08.17 at 22h 43m 53s.xml">
-      <configuration name="Cmp_featuresPersistenceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Cmp_featuresPersistenceTest_FindAllCmp_features - 2016.08.17 at 22h 37m 27s.xml">
-      <configuration name="Cmp_featuresPersistenceTest.FindAllCmp_features" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Cmp_featuresPersistenceTest_FindAllCmp_features - 2016.08.17 at 22h 38m 16s.xml">
-      <configuration name="Cmp_featuresPersistenceTest.FindAllCmp_features" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Cmp_featuresPersistenceTest_FindAllCmp_features - 2016.08.17 at 22h 42m 19s.xml">
-      <configuration name="Cmp_featuresPersistenceTest.FindAllCmp_features" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Cmp_featuresPersistenceTest_FindAllCmp_features - 2016.08.17 at 22h 42m 45s.xml">
-      <configuration name="Cmp_featuresPersistenceTest.FindAllCmp_features" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Cmp_featuresPersistenceTest_FindAllCmp_features - 2016.08.17 at 22h 46m 14s.xml">
-      <configuration name="Cmp_featuresPersistenceTest.FindAllCmp_features" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Cmp_featuresPersistenceTest_FindAllCmp_features - 2016.08.17 at 22h 50m 02s.xml">
-      <configuration name="Cmp_featuresPersistenceTest.FindAllCmp_features" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Cmp_featuresPersistenceTest_FindAllCmp_featuresLanguages - 2016.08.17 at 23h 00m 00s.xml">
-      <configuration name="Cmp_featuresPersistenceTest.FindAllCmp_featuresLanguages" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Cmp_featuresPersistenceTest_FindAllCmp_featuresLanguages - 2016.08.17 at 23h 05m 29s.xml">
-      <configuration name="Cmp_featuresPersistenceTest.FindAllCmp_featuresLanguages" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Cmp_featuresPersistenceTest_FindAllCmp_featuresLanguages - 2016.08.17 at 23h 05m 57s.xml">
       <configuration name="Cmp_featuresPersistenceTest.FindAllCmp_featuresLanguages" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CustomersPersistenceTest - 2016.08.18 at 00h 08m 05s.xml">
+      <configuration name="CustomersPersistenceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomersPersistenceTest - 2016.08.18 at 00h 09m 35s.xml">
+      <configuration name="CustomersPersistenceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomersPersistenceTest_FindAllCountries - 2016.08.18 at 00h 08m 58s.xml">
+      <configuration name="CustomersPersistenceTest.FindAllCountries" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Hll_complexPersistenceTest - 2016.08.18 at 00h 18m 15s.xml">
+      <configuration name="Hll_complexPersistenceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Hll_complexPersistenceTest_FindAllHll_complex - 2016.08.18 at 00h 16m 55s.xml">
+      <configuration name="Hll_complexPersistenceTest.FindAllHll_complex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Hll_complexPersistenceTest_FindAllHll_complex - 2016.08.18 at 00h 17m 48s.xml">
+      <configuration name="Hll_complexPersistenceTest.FindAllHll_complex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProgrammingPersistenceTest_FindAllProgramming - 2016.08.18 at 00h 22m 52s.xml">
+      <configuration name="ProgrammingPersistenceTest.FindAllProgramming" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProgrammingPersistenceTest_FindAllProgramming - 2016.08.18 at 00h 23m 18s.xml">
+      <configuration name="ProgrammingPersistenceTest.FindAllProgramming" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProgrammingPersistenceTest_FindAllProgramming - 2016.08.18 at 00h 25m 26s.xml">
+      <configuration name="ProgrammingPersistenceTest.FindAllProgramming" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36019000" />
+    <option name="totallyTimeSpent" value="37397000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -1075,13 +1075,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21567568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30577576" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30577576" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31257078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31257078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34871244" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34924892" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14109442" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497309" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1139,54 +1139,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/model/Tickets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
-          <folding>
-            <element signature="e#1599#1600#0" expanded="true" />
-            <element signature="e#1640#1641#0" expanded="true" />
-            <element signature="e#1676#1677#0" expanded="true" />
-            <element signature="e#1714#1715#0" expanded="true" />
-            <element signature="e#1743#1744#0" expanded="true" />
-            <element signature="e#1792#1793#0" expanded="true" />
-            <element signature="e#1828#1829#0" expanded="true" />
-            <element signature="e#1864#1865#0" expanded="true" />
-            <element signature="e#1893#1894#0" expanded="true" />
-            <element signature="e#1940#1941#0" expanded="true" />
-            <element signature="e#1976#1977#0" expanded="true" />
-            <element signature="e#2012#2013#0" expanded="true" />
-            <element signature="e#2041#2042#0" expanded="true" />
-            <element signature="e#2088#2089#0" expanded="true" />
-            <element signature="e#2124#2125#0" expanded="true" />
-            <element signature="e#2160#2161#0" expanded="true" />
-            <element signature="e#2192#2193#0" expanded="true" />
-            <element signature="e#2242#2243#0" expanded="true" />
-            <element signature="e#2284#2285#0" expanded="true" />
-            <element signature="e#2316#2317#0" expanded="true" />
-            <element signature="e#2345#2346#0" expanded="true" />
-            <element signature="e#2388#2389#0" expanded="true" />
-            <element signature="e#2424#2425#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/repository/TrailersRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/repository/UsersRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/repository/TicketsRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1501,14 +1453,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/be/david/school/CustomersPersistenceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/be/david/school/Flm_awardsPersistenceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="366">
@@ -1541,14 +1485,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/be/david/school/Hll_complexPersistenceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="30" column="65" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/be/david/school/LoginsPersistenceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -1573,10 +1509,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/be/david/school/CustomersPersistenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/be/david/school/Hll_complexPersistenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/insertKinepolis.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="294" column="0" selection-start-line="294" selection-start-column="0" selection-end-line="299" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/model/Programming.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/Kinepolis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="104" column="57" selection-start-line="104" selection-start-column="57" selection-end-line="104" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/be/david/school/ProgrammingPersistenceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        <state relative-caret-position="382">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
           <folding />
         </state>
       </provider>

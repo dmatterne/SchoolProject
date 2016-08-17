@@ -30,6 +30,6 @@ public class ProgrammingPersistenceTest extends DataSetPersistenceTest {
     public void FindAllProgramming() {
         ProgrammingRepository pr = new ProgrammingRepositoryBean(entityManager());
         List<Programming> prs = pr.findAllProgramming();
-        assertEquals(5, prs.size());
+        assertEquals(3, prs.size());
     }
 }

@@ -30,6 +30,6 @@ public class Hll_complexPersistenceTest extends DataSetPersistenceTest {
     public void FindAllHll_complex() {
         Hll_complexRepository hr = new Hll_complexRepositoryBean(entityManager());
         List<Hll_complex> hrs = hr.findAllHll_complex();
-        assertEquals(5, hrs.size());
+        assertEquals(3, hrs.size());
     }
 }

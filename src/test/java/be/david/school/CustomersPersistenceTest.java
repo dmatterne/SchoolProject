@@ -30,7 +30,7 @@ public class CustomersPersistenceTest extends DataSetPersistenceTest {
     public void FindAllCountries() {
         CustomersRepository cr = new CustomersRepositoryBean(entityManager());
         List<Customers> crs = cr.findAllCustomers();
-        assertEquals(5, crs.size());
+        assertEquals(3, crs.size());
     }
 
 }

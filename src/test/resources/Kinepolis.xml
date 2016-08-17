@@ -74,10 +74,35 @@
     <Cmp_features cmf_id="-2" CMF_NAME="Metropolis Antwerpen" CNT_ID="-1"
                   CMF_ADDRESS="Groenendaallaan 393" CMF_CONSTRUCTIONYEAR="1991" CMF_TYPE="Metropolis"
                   CMF_HALLAMOUNT="22"/>
-    <Discounts dsc_id = "-1" dsc_name = "Happy Days Korting" dsc_amount = "2.50" />
-    <Discounts dsc_id = "-2" dsc_name = "Guido Korting" dsc_amount = "3.00" />
-    <Discounts dsc_id = "-3" dsc_name = "Fortis Korting" dsc_amount = "4.00" />
-    <Cmp_languages lng_id = "-1" cmf_id = "-2" />
-    <Cmp_languages lng_id = "-2" cmf_id = "-1" />
+    <Discounts dsc_id="-1" dsc_name="Happy Days Korting" dsc_amount="2.50"/>
+    <Discounts dsc_id="-2" dsc_name="Guido Korting" dsc_amount="3.00"/>
+    <Discounts dsc_id="-3" dsc_name="Fortis Korting" dsc_amount="4.00"/>
+    <Cmp_languages lng_id="-1" cmf_id="-2"/>
+    <Cmp_languages lng_id="-2" cmf_id="-1"/>
+    <Customers cst_id="-1" cst_birthdate="1950-01-01"
+               cst_name="Jos Reekmans" cst_address="Genkersteenweg 12"
+               cst_tel="011871115" cst_email="j.reekmans@pandora.be"/>
+    <Customers cst_id="-2" cst_birthdate="1960-01-01"
+               cst_name="Carlo De Bakker" cst_address="Bergstraat 198"
+               cst_tel="011729199" cst_email="carlito@hotmail.com"/>
+    <Customers cst_id="-3" cst_birthdate="1980-01-01"
+               cst_name="Peter Ackaert" cst_address="Havenweg 2"
+               cst_tel="011272474" cst_email="peter_ackaert@belgacom.be"/>
+    <Hll_complex hlc_id="-1" cmf_id="-2" hlc_twinseat="YES" hlc_wheelchair="NO"
+                 hlc_digitalversion="YES" hlc_cupholder="YES" hlc_capacity="210"
+                 hlc_bookable="NO" hlc_distancescreenprojection="23" hlc_spaceinfrontofscreen="20 x 11"
+                 hlc_screenwidth="18 x 8"/>
+    <Hll_complex hlc_id="-2" cmf_id="-1" hlc_twinseat="NO" hlc_wheelchair="YES"
+                 hlc_digitalversion="NO" hlc_cupholder="NO" hlc_capacity="390"
+                 hlc_bookable="YES" hlc_distancescreenprojection="26" hlc_spaceinfrontofscreen="18 x 11"
+                 hlc_screenwidth="20 x 8"/>
+    <Hll_complex hlc_id="-3" cmf_id="-2" hlc_twinseat="YES" hlc_wheelchair="NO"
+                 hlc_digitalversion="YES" hlc_cupholder="NO" hlc_capacity="220"
+                 hlc_bookable="YES" hlc_distancescreenprojection="20" hlc_spaceinfrontofscreen="22 x 11"
+                 hlc_screenwidth="20 x 10"/>
+    <Programming prg_id = "-1" cmf_id = "-2" hlc_id = "-3" fli_id = "-1" prg_datetime = "2005-02-02" prg_price = "7" />
+    <Programming prg_id = "-2" cmf_id = "-1" hlc_id = "-2" fli_id = "-2" prg_datetime = "2006-02-02" prg_price = "8" />
+    <Programming prg_id = "-3" cmf_id = "-2" hlc_id = "-1" fli_id = "-1" prg_datetime = "2007-02-02" prg_price = "9" />
+
 </dataset>
 
