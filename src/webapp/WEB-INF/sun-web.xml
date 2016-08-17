@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ Copyright 2004-2005 Sun Microsystems, Inc.  All rights reserved.
+ Use is subject to license terms.
+-->
+
+<!DOCTYPE sun-web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Application Server 8.1 Servlet 2.4//EN" "http://www.sun.com/software/appserver/dtds/sun-web-app_2_4-1.dtd">
+<sun-web-app>
+  <context-root>/kinepolis</context-root> 
+  <servlet>
+        <servlet-name>showImage</servlet-name>
+        <servlet-class>servlets.showImage</servlet-class>
+    </servlet>
+     <servlet>
+        <servlet-name>showTrailer</servlet-name>
+        <servlet-class>servlets.showTrailer</servlet-class>
+    </servlet>
+     <servlet>
+        <servlet-name>Barcode</servlet-name>
+        <servlet-class>servlets.BarcodeTicket</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>showImage</servlet-name>
+        <url-pattern>/showImage</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>showTrailer</servlet-name>
+        <url-pattern>/showTrailer</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Barcode</servlet-name>
+        <url-pattern>/Barcode</url-pattern>
+    </servlet-mapping>
+</sun-web-app>

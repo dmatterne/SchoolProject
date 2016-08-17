@@ -11,4 +11,5 @@ import java.util.List;
 public interface Cmp_FeaturesRepository {
 
     List<Cmp_features> findAllCmpFeatures();
+    List<Cmp_features> findAllCmpLanguages();
 }

@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Help :: Add Movie</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<h2>Filmadministratie</h2>
+<h3>Add a movie</h3>
+<p>Als je via het adminstratiepaneel gekozen hebt voor het toevoegen van een film kom je terecht in het scherm zoals te zien is in figuur 16. Hier kan je dan de gewenste informatie over de film gaan toevoegen. Er zijn wel een aantal dingen waar je op moet letten als je filminformatie gaat toevoegen. </p>
+<p><img src="Screen/add%20movie.JPG" width="387" height="540"><br>
+Figuur 17: Het toevoegen van filminformatie</p>
+<p>Zoals je kan zien in figuur 16 zijn er een heel deel velden die verplicht in te vullen zijn. Deze velden zijn aangeduidt met een rode ster. Als je deze velden niet invult zal je de informatie van de film niet kunnen toevoegen in de database. In plaats daarvan verschijnen er  een aantal foutmeldingen op het scherm die je eerst zal moeten oplossen voor je de informatie kan opslaan in de database. De foutmelding die wordt gegenereerd is te zien in figuur 17. </p>
+<p><img src="Screen/add%20movie%20lege%20velden.JPG" width="492" height="542"><br>
+Figuur 18: Foutmelding bij het toevoegen van informatie aan een film als niet alle verplichte velden zijn ingevuld</p>
+<p>Als je alle verplichte velden hebt ingevuld kan het nog zijn dat er een foutmelding zal verschijnen als je probeert de filminformatie toe te voegen. Dit komt omdat er naast de controle op de verplichte velden nog een aantal andere controles zijn ingebouwd in het formulier. Het gaat hier dan bijvoorbeeld om controles op numerieke waarden of controles op een datum. Er zal dan weer een gepaste foutmelding verschijnen naast het veld dat nog niet correct is ingevuld. De controle op numerieke waarden is er bij de velden &quot;length&quot; en &quot;price&quot;. In deze velden moet u een numerieke waarde invullen, als u er iets anders invult treedt er een fout op. <br>
+  Een controle op het juist ingeven van een datum is er bij het veld &quot;releasedate&quot;. De datum moet er worden ingegeven in het volgende formaat: DD/MM/YYYY. Doet u dit niet dan verschijnt er een foutmelding waarin wordt gevraagd om de datum in het juiste formaat in te geven. Bij deze foutmelding zal ook een voorbeeld staan van een correcte waarde. Deze foutcontroles zijn te zien in figuur 18.</p>
+<p><img src="Screen/add%20movie%20numerieke%20velden.JPG" width="686" height="538"><br>
+Figuur 19: Foutmelding op numerieke waarden en datum bij het toevoegen van filminformatie </p>
+<p>Onderaan het formulier zijn nog drie velden die op een speciale manier moeten worden ingevuld. Het gaat hier om de velden &quot;genre&quot;, &quot;country&quot; en &quot;distributor&quot;. Deze drie velden worden ingevuld aan de hand van een dropdownlist. Standaard staat er altijd al een waarde ingevuld, dus als u vergeet deze velden aan te passen dan zal er toch een waarde worden weggeschreven in de database, namelijk de waarde die als eerste in de keuzelijst staat. Je kan de waarde van dit veld veranderen door op het pijltje rechts van de keuzelijst te klikken. Er zal een uitrolmenu verschijnen waaruit je dan een waarde kan kiezen. In figuur 19 ziet u een voorbeeld hiervan.</p>
+<p><img src="../screenshots%20webapp/dropdown%20countries.JPG" width="373" height="197"><br>
+Figuur 20: Een dropdownlist voor het kiezen van een land </p>
+<p>Als alle velden correct zijn ingevuld en je klikt op de knop &quot;add&quot; zal de informatie in de database worden opgeslagen. Als dit gelukt is krijgt u hiervan ook een melding zoals te zien in figuur 20.</p>
+<p><img src="Screen/add%20movie%20succes.JPG" width="433" height="32"><br>
+Figuur 21: De melding dat het toevoegen van filminformatie is gelukt. </p>
+<h3>Tonen van een lijst van films </h3>
+<p>Als we via het administratiepaneel kiezen voor het tonen van de lijst van films krijgen we een overzicht van de films die geprogrammeerd kunnen worden. Van elke film wordt een deel informatie getoond. Het gaat hier dan over de naam, de lengte, de website, de datum van uitgave, de prijs, het genre en het land van de film. Achter elke film staat ook een knop waarmee je de informatie van de film kan bewerken, dit is de edit knop, en een knop om de filminformatie te verwijderen. Hieronder is een voorbeeld te zien van zo een overzicht.</p>
+<p><img src="Screen/movie%20list.JPG" width="737" height="227"><br>
+Figuur 22: Tonen van een lijst met films</p>
+<h3>Bewerken van een film</h3>
+<p>  Als we achter de informatie van de film klikken op de knop edit kunnen we de informatie van die film gaan bijwerken. Het venster dat we dan krijgen is hetzelfde als dat van een film toe te voegen, alleen zijn de velden die ingevuld waren voorzien van hun waarde. Hier kunnen we dan alle gegevens aanpassen door gewoon hun waarde te veranderen. Net zoals bij het toevoegen van een film zijn ook hier bepaalde voorwaarden waaraan voldaan moet worden. Als u meer informatie wenst over deze foutcontroles kan u kijken bij het toevoegen van een film.</p>
+<p><img src="Screen/add%20movie%20edit.JPG" width="324" height="486"><br>
+Figuur 23: Het bewerken van filminformatie</p>
+<p>Als we deze wijzigingen dan willen opslaan moet u gewoon op de knop add klikken. U krijgt dan een melding dat het bewerken van de filminformatie is gelukt. </p>
+<p><img src="Screen/edit%20movie%20succes.JPG" width="285" height="33"><br>
+Figuur 24: De filminformatie is succesvol bijgewerkt</p>
+</body>
+</html>

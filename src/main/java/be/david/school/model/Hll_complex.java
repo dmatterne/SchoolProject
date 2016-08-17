@@ -5,7 +5,7 @@ import javax.persistence.*;
 /**
  * Created by David on 15/08/2016.
  */
-@Entity @IdClass(Hll_complexId.class)
+@Entity //@IdClass(Hll_complexId.class)
 @Table(name = "HLL_COMPLEX", uniqueConstraints = @UniqueConstraint(name="pr_hll_complex", columnNames = {"HLC_ID","CMF_ID"}))
 public class Hll_complex {
 

@@ -77,5 +77,7 @@
     <Discounts dsc_id = "-1" dsc_name = "Happy Days Korting" dsc_amount = "2.50" />
     <Discounts dsc_id = "-2" dsc_name = "Guido Korting" dsc_amount = "3.00" />
     <Discounts dsc_id = "-3" dsc_name = "Fortis Korting" dsc_amount = "4.00" />
+    <Cmp_languages lng_id = "-1" cmf_id = "-2" />
+    <Cmp_languages lng_id = "-2" cmf_id = "-1" />
 </dataset>
 

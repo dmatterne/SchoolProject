@@ -12,7 +12,7 @@ public class Flm_awards {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SEQ_FLA")
     @SequenceGenerator(name = "SEQ_FLA", sequenceName = "SEQ_FLA", initialValue = 1, allocationSize = 1)
-    @Column(name = "FLA_ID", )
+    @Column(name = "FLA_ID")
     private int fla_id;
 
     @Column(name = "FLA_NAME", nullable = false, length = 15)
@@ -20,12 +20,12 @@ public class Flm_awards {
 
     @OneToOne
     @JoinColumn(name = "FLI_ID", referencedColumnName = "FLI_ID", foreignKey = @ForeignKey(name="rf_fli_id_fla"))
-    private int fli_id;
+    private Flm_info fli_id;
 
     public Flm_awards() {
     }
 
-    public Flm_awards(int fla_id, String fla_name, int fli_id) {
+    public Flm_awards(int fla_id, String fla_name, Flm_info fli_id) {
         this.fla_id = fla_id;
         this.fla_name = fla_name;
         this.fli_id = fli_id;
@@ -47,11 +47,11 @@ public class Flm_awards {
         this.fla_name = fla_name;
     }
 
-    public int getFli_id() {
+    public Flm_info getFli_id() {
         return fli_id;
     }
 
-    public void setFli_id(int fli_id) {
+    public void setFli_id(Flm_info fli_id) {
         this.fli_id = fli_id;
     }
 }

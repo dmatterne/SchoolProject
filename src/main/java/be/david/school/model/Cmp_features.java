@@ -40,7 +40,7 @@ public class Cmp_features {
     @JoinTable( name = "CMP_LANGUAGES", joinColumns = @JoinColumn(name = "LNG_ID"),
     inverseJoinColumns = @JoinColumn(name = "CMF_ID"),foreignKey = @ForeignKey(name="rf_languages_lng_id"),
     inverseForeignKey =  @ForeignKey(name="rf_languages_cmf_id"))
-    private Collection<Languages> Languages = new ArrayList<>();
+    private Collection<Languages> languages = new ArrayList<>();
 
     public Cmp_features() {
     }
@@ -111,17 +111,17 @@ public class Cmp_features {
     }
 
     public Collection<Languages> getLanguages() {
-        return this.Languages;
+        return this.languages;
     }
 
     public void setLanguages(Collection<Languages> languages) {
-        this.Languages = languages;
+        this.languages = languages;
     }
 
     public void addLanguages(Languages newLanguage) {
-        if (newLanguage == null {
+        if (newLanguage == null) {
             throw new IllegalArgumentException("Wrong Entry");
         }
-        this.Languages.add(newLanguage);
+        this.languages.add(newLanguage);
     }
 }

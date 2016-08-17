@@ -1,0 +1,83 @@
+body {
+	margin: 5%;
+	margin-left: 5%;
+	margin-right: 40%;
+	font-family: verdana, arial, helvetica, sans-serif;
+
+}
+
+body,input,select,tr,th,td,table,option,a,p {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	color: #0b4624;
+}
+
+form a {
+	text-decoration: none;
+	color: #0b4624;
+}
+
+a img {
+	border-width: 0px;
+}
+
+tr.row1 {
+	background-color: #dfefdf;
+}
+
+tr.row2 {
+	background-color: #effbef;
+}
+
+#menu {
+	color: #eeeeee;
+}
+
+#menu a {
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #eeeeee;
+	text-decoration: none;
+}
+
+#menu a:hover {
+	color: #efefef;
+	text-decoration: underline;
+}
+
+.errormessage {
+	font-weight: bold;
+	font-size: 11px;
+	color: #bd0000;
+	left: 5px;
+}
+
+input:focus,select:focus {
+	background-color: #ddffee;
+}
+
+
+h2 {
+	background: url(../images/item.jpg) no-repeat left;
+	height: 28px;
+	text-indent: 28px;
+	font-weight: bold;
+	font-size: 15px;
+	border-bottom: 3px solid #dfefdf;
+	line-height: 34px;
+	width: 80%; 
+	color: #0b4624;
+}
+h3 {
+	background: url(../images/h3.jpg) no-repeat left;
+	height: 20px;
+	text-indent: 18px;
+	font-size: 12px;
+	font-weight: bold;
+	border-bottom: 1px solid #cfdfcf;
+	line-height: 22px;
+	width: 160px; 
+	width: 60%; 
+	color: #0b4624;
+}

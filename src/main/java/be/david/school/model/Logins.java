@@ -12,7 +12,7 @@ public class Logins {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SEQ_LGN")
-    @SequenceGenerator(name = "LGN_SCR", sequenceName = "LGN_SCR", initialValue = 1, allocationSize = 1)
+    @SequenceGenerator(name = "SEQ_LGN", sequenceName = "SEQ_LGN", initialValue = 1, allocationSize = 1)
     @Column(name = "LGN_ID", length = 38)
     private int lgn_id;
 

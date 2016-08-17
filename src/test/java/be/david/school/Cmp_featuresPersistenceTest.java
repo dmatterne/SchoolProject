@@ -32,6 +32,13 @@ public class Cmp_featuresPersistenceTest extends DataSetPersistenceTest {
         List<Cmp_features> cmfs = cmf.findAllCmpFeatures();
         assertEquals(2, cmfs.size());
     }
+
+    @Test
+    public void FindAllCmp_featuresLanguages() {
+        Cmp_FeaturesRepository cmf = new Cmp_FeaturesRepositoryBean(entityManager());
+        List<Cmp_features> cmfs = cmf.findAllCmpLanguages();
+        assertEquals(2, cmfs.size());
+    }
 }
 
 

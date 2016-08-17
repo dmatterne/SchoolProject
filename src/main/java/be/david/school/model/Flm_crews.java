@@ -5,8 +5,8 @@ import javax.persistence.*;
 /**
  * Created by David on 15/08/2016.
  */
-@Entity @IdClass(Flm_crewsId.class)
-@Table(name = "FLM_CREWS", uniqueConstraints = @UniqueConstraint(name = "pk_flm_crews", columnNames = {"id"}))
+@Entity //@IdClass(Flm_crewsId.class)
+@Table(name = "FLM_CREWS", uniqueConstraints = @UniqueConstraint(name = "pk_flm_crews", columnNames = {"RLS_ID", "FLI_ID", "PRS_ID"}))
 public class Flm_crews {
 
     @EmbeddedId

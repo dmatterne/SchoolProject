@@ -23,4 +23,11 @@ public class Cmp_FeaturesRepositoryBean implements Cmp_FeaturesRepository {
     public List<Cmp_features> findAllCmpFeatures() {
         return em.createQuery("select c from Cmp_features c", Cmp_features.class).getResultList();
     }
+
+    @Override
+    public List<Cmp_features> findAllCmpLanguages() {
+        return em.createQuery("select c from Cmp_features c, IN(c.languages) l", Cmp_features.class).getResultList();
+    }
+
+
 }
