@@ -19,15 +19,40 @@ public class Flm_awards {
     private String fla_name;
 
     @OneToOne
-    @JoinColumn(name = "FLI_ID", referencedColumnName = "FLI_ID")
+    @JoinColumn(name = "FLI_ID", referencedColumnName = "FLI_ID", foreignKey = @ForeignKey(name="rf_fli_id_fla"))
     private int fli_id;
 
+    public Flm_awards() {
+    }
+
+    public Flm_awards(int fla_id, String fla_name, int fli_id) {
+        this.fla_id = fla_id;
+        this.fla_name = fla_name;
+        this.fli_id = fli_id;
+    }
+
+    public int getFla_id() {
+        return fla_id;
+    }
+
+    public void setFla_id(int fla_id) {
+        this.fla_id = fla_id;
+    }
+
+    public String getFla_name() {
+        return fla_name;
+    }
+
+    public void setFla_name(String fla_name) {
+        this.fla_name = fla_name;
+    }
+
+    public int getFli_id() {
+        return fli_id;
+    }
+
+    public void setFli_id(int fli_id) {
+        this.fli_id = fli_id;
+    }
 }
-//
-//    CREATE TABLE FLM_AWARDS
-//        (fla_id			NUMBER(11)	CONSTRAINT pr_flm_awards	PRIMARY KEY
-//                                                        ,fla_name		VARCHAR2(15)	CONSTRAINT nn_fla_name		NOT NULL
-//                                                                ,fli_id			NUMBER(15)	CONSTRAINT rf_fli_id7		REFERENCES FLM_INFO
-//                                                                )
-//                                                                /
 

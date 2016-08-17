@@ -18,7 +18,7 @@ public class Org_films {
     private String orf_playing;
 
     @OneToOne
-    @JoinColumn(name = "FLI_ID")
+    @JoinColumn(name = "FLI_ID", referencedColumnName = "FLI_ID", foreignKey = @ForeignKey(name = "rf_fli_id_orf"))
     private Flm_info fli_id;
 
     public Org_films() {

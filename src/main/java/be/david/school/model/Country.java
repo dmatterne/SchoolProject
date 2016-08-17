@@ -68,13 +68,3 @@ public class Country {
         this.cnt_tax = cnt_tax;
     }
 }
-
-
-//    CREATE TABLE COUNTRIES
-//        (cnt_id				NUMBER(3) 	CONSTRAINT pr_countries 	PRIMARY KEY
-//,cnt_name	 		VARCHAR2(15)	CONSTRAINT nn_cnt_name		NOT NULL
-//        CHECK(cnt_name = initcap(cnt_name))
-//        ,cnt_currency	 		VARCHAR2(3)	CONSTRAINT nn_cnt_currency	NOT NULL
-//        ,cnt_tax	 		NUMBER(3)	CONSTRAINT nn_cnt_tax		NOT NULL
-//        )
-//        /

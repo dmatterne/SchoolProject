@@ -44,18 +44,18 @@ public class Flm_info {
     private String fli_targetgroup;
 
     @OneToOne
-    @JoinColumn(name = "GNR_ID")
+    @JoinColumn(name = "GNR_ID", referencedColumnName = "GNR_ID", foreignKey = @ForeignKey(name="rf_gnr_id_fli"))
     private Genres gnr_id;
 
     @Column(name = "FLI_PRODUCTIONHOUSE", nullable = false, length = 30 )
     private String fli_productionHouse;
 
     @OneToOne
-    @JoinColumn(name = "CNT_ID")
+    @JoinColumn(name = "CNT_ID", referencedColumnName = "CNT_ID", foreignKey = @ForeignKey(name="rf_cnt_id_fli"))
     private Country cnt_id;
 
     @OneToOne
-    @JoinColumn(name = "DST_ID")
+    @JoinColumn(name = "DST_ID", referencedColumnName = "DST_ID", foreignKey = @ForeignKey(name="rf_dst_id_fli"))
     private Distributors dst_id;
 
 

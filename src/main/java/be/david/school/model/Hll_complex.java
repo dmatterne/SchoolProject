@@ -15,8 +15,8 @@ public class Hll_complex {
     private int hlc_id;
 
     @OneToOne
-    @JoinColumn(name = "CMF_ID", foreignKey = @ForeignKey(name="rf_hll_complx_cmf_id"))
-    private int cmf_id;
+    @JoinColumn(name = "CMF_ID", foreignKey = @ForeignKey(name="rf_cmf_id_hlc"))
+    private Cmp_features cmf_id;
     @Enumerated(EnumType.STRING)
     @Column(name = "HLC_TWINSEAT", length = 3, nullable = false)
     private YesNo hlc_twinseat;
@@ -66,11 +66,11 @@ public class Hll_complex {
         this.hlc_id = hlc_id;
     }
 
-    public int getCmf_id() {
+    public Cmp_features getCmf_id() {
         return cmf_id;
     }
 
-    public void setCmf_id(int cmf_id) {
+    public void setCmf_id(Cmp_features cmf_id) {
         this.cmf_id = cmf_id;
     }
 
