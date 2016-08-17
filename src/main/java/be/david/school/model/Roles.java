@@ -14,13 +14,30 @@ public class Roles {
     @SequenceGenerator(name = "SEQ_RLS", sequenceName = "SEQ_RLS", initialValue = 1, allocationSize = 1)
     @Column(name = "RLS_ID", length = 5)
     private int rls_id;
+
+    @Column(name = "RLS_DESCRIPTION", length = 15, nullable = false)
     private String rls_description;
 
-}
+    public Roles() {
+    }
 
-//        CREATE TABLE ROLES
-//        (rls_id 	 	NUMBER(5)	CONSTRAINT pr_roles		PRIMARY KEY
-//        ,rls_description 	VARCHAR2(15)	CONSTRAINT nn_rls_description	NOT NULL
-//        )
-//        /
-//
+    public Roles(String rls_description) {
+        this.rls_description = rls_description;
+    }
+
+    public int getRls_id() {
+        return rls_id;
+    }
+
+    public void setRls_id(int rls_id) {
+        this.rls_id = rls_id;
+    }
+
+    public String getRls_description() {
+        return rls_description;
+    }
+
+    public void setRls_description(String rls_description) {
+        this.rls_description = rls_description;
+    }
+}
