@@ -16,12 +16,15 @@ public class Programming {
     @SequenceGenerator(name = "SEQ_PRG", sequenceName = "SEQ_PRG", initialValue = 1, allocationSize = 1)
     @Column(name = "PRG_ID", length = 30)
     private int prg_id;
+
     @OneToOne
-    @JoinColumn(name = "CMF_ID", foreignKey = @ForeignKey(name="rf_cmf_id_prg"))
-    private Cmp_features cmf_id;
-    @OneToOne
-    @JoinColumn(name = "HLC_ID", foreignKey = @ForeignKey(name="rf_hlc_id_prg"))
-    private Hll_complex hlc_id;
+    @JoinColumns({
+            @JoinColumn(name = "cmf_id", referencedColumnName = "cmf_id", updatable=false, insertable=false),
+            @JoinColumn(name = "hlc_id", referencedColumnName = "hlc_id", updatable=false, insertable=false)
+    }
+    )
+    private Hll_complex hlc;
+
     @OneToOne
     @JoinColumn(name = "FLI_ID", foreignKey = @ForeignKey(name="rf_fli_id_prg"))
     private Flm_info fli_id;
@@ -31,19 +34,57 @@ public class Programming {
 
     @Column(name = "PRG_PRICE", nullable = false, precision = 6, scale = 2)
     private double prg_price;
-}
 
-//    CREATE TABLE PROGRAMMING
-//        (prg_id				NUMBER(30)	CONSTRAINT pr_programming 	PRIMARY KEY
-//,cmf_id				NUMBER(3)
-//        ,hlc_id				NUMBER(3)
-//        -- fli id instead of ntf id
-//        --,ntf_id				NUMBER(11)	CONSTRAINT rf_prgramming_ntn_id REFERENCES NTN_FILMS
-//        ,fli_id                         NUMBER(15)      CONSTRAINT rf_prgramming_fli_id REFERENCES FLM_INFO (fli_id)
-//        ,prg_datetime			DATE		CONSTRAINT nn_prg_datetime	NOT NULL
-//        ,prg_price			NUMBER(4,2)	CONSTRAINT nn_prg_price		NOT NULL
-//        ,CONSTRAINT fk_prg_hlc FOREIGN KEY(hlc_id,cmf_id) REFERENCES HLL_COMPLEX(hlc_id,cmf_id)
-//        )
-//        /
+    public Programming() {
+
+    }
+
+    public Programming(Hll_complex hlc, Flm_info fli_id, LocalDateTime prg_datetime, double prg_price) {
+        this.hlc = hlc;
+        this.fli_id = fli_id;
+        this.prg_datetime = prg_datetime;
+        this.prg_price = prg_price;
+    }
+
+    public int getPrg_id() {
+        return prg_id;
+    }
+
+    public void setPrg_id(int prg_id) {
+        this.prg_id = prg_id;
+    }
+
+    public Hll_complex getHlc() {
+        return hlc;
+    }
+
+    public void setHlc(Hll_complex hlc) {
+        this.hlc = hlc;
+    }
+
+    public Flm_info getFli_id() {
+        return fli_id;
+    }
+
+    public void setFli_id(Flm_info fli_id) {
+        this.fli_id = fli_id;
+    }
+
+    public LocalDateTime getPrg_datetime() {
+        return prg_datetime;
+    }
+
+    public void setPrg_datetime(LocalDateTime prg_datetime) {
+        this.prg_datetime = prg_datetime;
+    }
+
+    public double getPrg_price() {
+        return prg_price;
+    }
+
+    public void setPrg_price(double prg_price) {
+        this.prg_price = prg_price;
+    }
+}
 
 

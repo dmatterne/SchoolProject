@@ -5,18 +5,13 @@ import javax.persistence.*;
 /**
  * Created by David on 15/08/2016.
  */
-@Entity
+@Entity @IdClass(Hll_complexId.class)
 @Table(name = "HLL_COMPLEX", uniqueConstraints = @UniqueConstraint(name="pr_hll_complex", columnNames = {"HLC_ID","CMF_ID"}))
 public class Hll_complex {
 
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SEQ_HLC")
-    @SequenceGenerator(name="SEQ_HLC", sequenceName = "SEQ_HLC", initialValue = 1, allocationSize = 1)
-    @Column(name = "HLC_ID", length = 3)
-    private int hlc_id;
+    @EmbeddedId
+    private Hll_complexId id;
 
-    @OneToOne
-    @JoinColumn(name = "CMF_ID", foreignKey = @ForeignKey(name="rf_cmf_id_hlc"))
-    private Cmp_features cmf_id;
     @Enumerated(EnumType.STRING)
     @Column(name = "HLC_TWINSEAT", length = 3, nullable = false)
     private YesNo hlc_twinseat;
@@ -44,9 +39,8 @@ public class Hll_complex {
     public Hll_complex() {
     }
 
-    public Hll_complex(int hlc_id, int cmf_id, YesNo hlc_twinseat, YesNo hlc_wheelchair, YesNo hlc_digitalversion, YesNo hlc_cupholder, int hlc_capacity, YesNo hlc_bookable, int hlc_distancescreenprojection, String hlc_spaceinfrontofscreen, String hlc_screenwidth) {
-        this.hlc_id = hlc_id;
-        this.cmf_id = cmf_id;
+    public Hll_complex(Hll_complexId id, YesNo hlc_twinseat, YesNo hlc_wheelchair, YesNo hlc_digitalversion, YesNo hlc_cupholder, int hlc_capacity, YesNo hlc_bookable, int hlc_distancescreenprojection, String hlc_spaceinfrontofscreen, String hlc_screenwidth) {
+        this.id = id;
         this.hlc_twinseat = hlc_twinseat;
         this.hlc_wheelchair = hlc_wheelchair;
         this.hlc_digitalversion = hlc_digitalversion;
@@ -58,20 +52,12 @@ public class Hll_complex {
         this.hlc_screenwidth = hlc_screenwidth;
     }
 
-    public int getHlc_id() {
-        return hlc_id;
+    public Hll_complexId getId() {
+        return id;
     }
 
-    public void setHlc_id(int hlc_id) {
-        this.hlc_id = hlc_id;
-    }
-
-    public Cmp_features getCmf_id() {
-        return cmf_id;
-    }
-
-    public void setCmf_id(Cmp_features cmf_id) {
-        this.cmf_id = cmf_id;
+    public void setId(Hll_complexId id) {
+        this.id = id;
     }
 
     public YesNo getHlc_twinseat() {

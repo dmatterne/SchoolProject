@@ -19,23 +19,65 @@ public class Flm_scores {
     @JoinColumn(name = "SCR_ID", foreignKey = @ForeignKey(name="rf_scr_id_fls"))
     private Scores scr_id;
 
+    @Column(name = "FLS_NAME", length = 30, nullable = false)
     private String fls_name;
     @Enumerated(EnumType.STRING)
+    @Column(name = "FLS_PUBLIC", length = 3, nullable = false)
     private YesNo fls_public;
     @OneToOne
     @JoinColumn(name = "CNT_ID", foreignKey = @ForeignKey(name="rf_fli_id_fls"))
     private Flm_info fli_id;
 
+
+    public Flm_scores() {
+    }
+
+    public Flm_scores(Scores scr_id, String fls_name, YesNo fls_public, Flm_info fli_id) {
+        this.scr_id = scr_id;
+        this.fls_name = fls_name;
+        this.fls_public = fls_public;
+        this.fli_id = fli_id;
+    }
+
+    public int getFls_id() {
+        return fls_id;
+    }
+
+    public void setFls_id(int fls_id) {
+        this.fls_id = fls_id;
+    }
+
+    public Scores getScr_id() {
+        return scr_id;
+    }
+
+    public void setScr_id(Scores scr_id) {
+        this.scr_id = scr_id;
+    }
+
+    public String getFls_name() {
+        return fls_name;
+    }
+
+    public void setFls_name(String fls_name) {
+        this.fls_name = fls_name;
+    }
+
+    public YesNo getFls_public() {
+        return fls_public;
+    }
+
+    public void setFls_public(YesNo fls_public) {
+        this.fls_public = fls_public;
+    }
+
+    public Flm_info getFli_id() {
+        return fli_id;
+    }
+
+    public void setFli_id(Flm_info fli_id) {
+        this.fli_id = fli_id;
+    }
 }
 
-
-//    CREATE TABLE FLM_SCORES
-//        (fls_id			NUMBER(11)	CONSTRAINT pr_flm_scores	PRIMARY KEY
-//                        ,scr_id			NUMBER(3)	CONSTRAINT rf_scr_id		REFERENCES SCORES
-//                                ,fls_name		VARCHAR2(30)	CONSTRAINT nn_fls_name		NOT NULL
-//                                ,fls_public		VARCHAR2(3)	CONSTRAINT nn_fls_public	NOT NULL
-//                                CHECK(fls_public = 'YES' OR fls_public = 'NO')
-//                                ,fli_id			NUMBER(15)	CONSTRAINT rf_fli_id4		REFERENCES FLM_INFO
-//                                )
-//                                /
 

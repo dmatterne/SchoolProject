@@ -5,31 +5,51 @@ import javax.persistence.*;
 /**
  * Created by David on 15/08/2016.
  */
-@Entity
-@Table(name = "FLM_CREWS", uniqueConstraints = @UniqueConstraint(name = "pk_flm_crews", columnNames = {"RLS_ID", "FLI_ID", "PRS_ID"}))
+@Entity @IdClass(Flm_crewsId.class)
+@Table(name = "FLM_CREWS", uniqueConstraints = @UniqueConstraint(name = "pk_flm_crews", columnNames = {"id"}))
 public class Flm_crews {
 
-    @OneToOne
-    @JoinColumn(name = "RLS_ID", foreignKey = @ForeignKey(name="rf_rls_id_flc"))
-    private Roles rls_id;
-    @OneToOne
-    @JoinColumn(name = "FLI_ID", foreignKey = @ForeignKey(name="rf_fli_id_flc"))
-    private Flm_info fli_id;
-    @OneToOne
-    @JoinColumn(name = "PRS_ID", foreignKey = @ForeignKey(name="rf_prs_id_flc"))
-    private Persons prs_id;
-    private String flc_character;
-    private String flc_award;
-}
+    @EmbeddedId
+    private Flm_crewsId id;
 
-//    CREATE TABLE FLM_CREWS
-//        (rls_id			NUMBER(5)	CONSTRAINT rf_rls_id		REFERENCES ROLES
-//                ,fli_id			NUMBER(15)	CONSTRAINT rf_fli_id2		REFERENCES FLM_INFO
-//                        ,prs_id			NUMBER(10)	CONSTRAINT rf_prs_id		REFERENCES PERSONS
-//                        ,flc_character		VARCHAR2(10)
-//                        ,flc_award		VARCHAR2(20)
-//                        ,CONSTRAINT pr_flm_crews PRIMARY KEY(rls_id,fli_id,prs_id)
-//                        )
-//                        /
+    @Column(name = "FLC_CHARACTER", length = 10)
+    private String flc_character;
+
+    @Column(name = "FLC_AWARD", length = 20)
+    private String flc_award;
+
+    public Flm_crews() {
+    }
+
+    public Flm_crews(Flm_crewsId id, String flc_character, String flc_award) {
+        this.id = id;
+        this.flc_character = flc_character;
+        this.flc_award = flc_award;
+    }
+
+    public Flm_crewsId getId() {
+        return id;
+    }
+
+    public void setId(Flm_crewsId id) {
+        this.id = id;
+    }
+
+    public String getFlc_character() {
+        return flc_character;
+    }
+
+    public void setFlc_character(String flc_character) {
+        this.flc_character = flc_character;
+    }
+
+    public String getFlc_award() {
+        return flc_award;
+    }
+
+    public void setFlc_award(String flc_award) {
+        this.flc_award = flc_award;
+    }
+}
 
 
