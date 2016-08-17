@@ -1,6 +1,8 @@
 package be.david.school.model;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.Collection;
 
 /**
  * Created by David on 15/08/2016.
@@ -33,6 +35,12 @@ public class Cmp_features {
 
     @Column(name = "CMF_HALLAMOUNT", nullable = false, length = 3)
     private int cmf_hallamount;
+
+    @OneToMany
+    @JoinTable( name = "CMP_LANGUAGES", joinColumns = @JoinColumn(name = "LNG_ID"),
+    inverseJoinColumns = @JoinColumn(name = "CMF_ID"),foreignKey = @ForeignKey(name="rf_languages_lng_id"),
+    inverseForeignKey =  @ForeignKey(name="rf_languages_cmf_id"))
+    private Collection<Languages> Languages = new ArrayList<>();
 
     public Cmp_features() {
     }
@@ -100,5 +108,20 @@ public class Cmp_features {
 
     public void setCmf_hallamount(int cmf_hallamount) {
         this.cmf_hallamount = cmf_hallamount;
+    }
+
+    public Collection<Languages> getLanguages() {
+        return this.Languages;
+    }
+
+    public void setLanguages(Collection<Languages> languages) {
+        this.Languages = languages;
+    }
+
+    public void addLanguages(Languages newLanguage) {
+        if (newLanguage == null {
+            throw new IllegalArgumentException("Wrong Entry");
+        }
+        this.Languages.add(newLanguage);
     }
 }
