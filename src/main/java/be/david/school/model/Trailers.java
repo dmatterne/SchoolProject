@@ -1,11 +1,13 @@
 package be.david.school.model;
 
 import javax.persistence.Entity;
+import javax.persistence.Table;
+import javax.persistence.UniqueConstraint;
 
 /**
  * Created by David on 15/08/2016.
  */
-@Entity
+@Table(name = "TRAILERS", uniqueConstraints = @UniqueConstraint(name = "pk_trailers", columnNames = {"TRL_ID","FLI_ID"}))
 public class Trailers {
 }
 //

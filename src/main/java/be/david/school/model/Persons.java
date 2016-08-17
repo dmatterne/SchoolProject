@@ -1,9 +1,27 @@
 package be.david.school.model;
 
+import javax.persistence.*;
+import java.time.LocalDate;
+
 /**
  * Created by David on 15/08/2016.
  */
+@Entity
+@Table(name = "PERSONS", uniqueConstraints = @UniqueConstraint(name = "pk_persons", columnNames = {"PRS_ID"}))
 public class Persons {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SEQ_PRS")
+    @SequenceGenerator(name = "SEQ_PRS", sequenceName = "SEQ_PRS", initialValue = 1, allocationSize = 1)
+    @Column(name = "PRS_ID", length = 10)
+    private int prs_id;
+    private String prs_name;
+    private LocalDate prs_birthdate;
+    @Enumerated(EnumType.STRING)
+    private Gender prs_sex;
+    @OneToOne
+    @JoinColumn(name = "CNT_ID", foreignKey = @ForeignKey(name="rf_cnt_id_prs"))
+    private Country cnt_id;
 }
 
 //

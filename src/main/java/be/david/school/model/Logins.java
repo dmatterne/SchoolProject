@@ -1,12 +1,40 @@
 package be.david.school.model;
 
-import javax.persistence.Entity;
+import javax.persistence.*;
+import java.time.LocalDate;
 
 /**
  * Created by David on 15/08/2016.
  */
 @Entity
+@Table(name = "LOGINS", uniqueConstraints = @UniqueConstraint(name = "pk_logins", columnNames = {"LGN_ID"}))
 public class Logins {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SEQ_LGN")
+    @SequenceGenerator(name = "LGN_SCR", sequenceName = "LGN_SCR", initialValue = 1, allocationSize = 1)
+    @Column(name = "LGN_ID", length = 38)
+    private int lgn_id;
+
+    private String lgn_username;
+    private String lgn_password;
+    @OneToOne
+    @JoinColumn(name = "USR_ID", foreignKey = @ForeignKey(name="rf_usr_id_lgn"))
+    private Users usr_id;
+    private String lgn_function;
+
+    @OneToOne
+    @JoinColumn(name = "CNT_ID", foreignKey = @ForeignKey(name="rf_cnt_id_lgn"))
+    private Country cnt_id;
+    private String lgn_address;
+    private LocalDate lgn_birthdate;
+    private String lgn_email;
+
+
+    private String lgn_name;
+    @Enumerated(EnumType.STRING)
+    private Gender lgn_sex;
+    private int lgn_tel;
 }
 
 //    CREATE TABLE LOGINS

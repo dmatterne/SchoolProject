@@ -1,12 +1,21 @@
 package be.david.school.model;
 
-import javax.persistence.Entity;
+import javax.persistence.*;
 
 /**
  * Created by David on 15/08/2016.
  */
 @Entity
+@Table(name = "SCORES", uniqueConstraints = @UniqueConstraint(name = "pk_scores", columnNames = {"SCR_ID"}))
 public class Scores {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SEQ_SCR")
+    @SequenceGenerator(name = "SEQ_SCR", sequenceName = "SEQ_SCR", initialValue = 1, allocationSize = 1)
+    @Column(name = "SCR_ID", length = 3)
+    private int scr_id;
+    private String scr_description;
+
 }
 
 

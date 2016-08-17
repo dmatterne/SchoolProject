@@ -1,12 +1,28 @@
 package be.david.school.model;
 
-import javax.persistence.Entity;
+import javax.persistence.*;
+import java.sql.Blob;
 
 /**
  * Created by David on 17/08/2016.
  */
 @Entity
+@Table(name = "PHOTOS", uniqueConstraints = @UniqueConstraint(name = "pk_photos", columnNames = {"PHT_ID", "FLI_ID"}))
 public class Photos {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SEQ_PHT")
+    @SequenceGenerator(name = "SEQ_PHT", sequenceName = "SEQ_PHT", initialValue = 1, allocationSize = 1)
+    @Column(name = "PHT_ID", length = 2)
+     private int pht_id;
+    @OneToOne
+    @JoinColumn(name = "FLI_ID", foreignKey = @ForeignKey(name="rf_fli_id_pht"))
+    private Flm_info fli_id;
+    private Blob pht_photo;
+    private String pht_contenttype;
+    private int pht_length;
+
+
 }
 
 //    CREATE TABLE PHOTOS

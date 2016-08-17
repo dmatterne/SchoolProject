@@ -1,12 +1,25 @@
 package be.david.school.model;
 
-import javax.persistence.Entity;
+import javax.persistence.*;
 
 /**
  * Created by David on 15/08/2016.
  */
 @Entity
+@Table(name = "FLM_CREWS", uniqueConstraints = @UniqueConstraint(name = "pk_flm_crews", columnNames = {"RLS_ID", "FLI_ID", "PRS_ID"}))
 public class Flm_crews {
+
+    @OneToOne
+    @JoinColumn(name = "RLS_ID", foreignKey = @ForeignKey(name="rf_rls_id_flc"))
+    private Roles rls_id;
+    @OneToOne
+    @JoinColumn(name = "FLI_ID", foreignKey = @ForeignKey(name="rf_fli_id_flc"))
+    private Flm_info fli_id;
+    @OneToOne
+    @JoinColumn(name = "PRS_ID", foreignKey = @ForeignKey(name="rf_prs_id_flc"))
+    private Persons prs_id;
+    private String flc_character;
+    private String flc_award;
 }
 
 //    CREATE TABLE FLM_CREWS

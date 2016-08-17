@@ -43,23 +43,3 @@ public class Flm_ratings {
         this.fra_name = fra_name;
     }
 }
-
-//@GeneratedValue(strategy=GenerationType.SEQUENCE, generator = "id_Sequence")
-//@SequenceGenerator(name = "id_Sequence", sequenceName = "seq_cnt")
-//, uniqueConstraints = {
-//// @UniqueConstraint(columnNames = { "PERSON_ID", "ROLE_ID" }) })
-//
-// 	@Id
-//@GeneratedValue(strategy = GenerationType.AUTO)
-//@Column(name = "ROSTER_ID", unique = true, nullable = false)
-//private Integer				id;
-//
-//@Column(name = "ATTEND_IND", nullable = false)
-//
-//    CREATE TABLE FLM_RATINGS
-//        (fra_id		 		NUMBER(2)	CONSTRAINT pr_fra_id 		PRIMARY KEY
-//,fra_name	 		VARCHAR2(20)	CONSTRAINT nn_fra_name		NOT NULL
-//        CONSTRAINT u_fra_name		UNIQUE
-//        CHECK(fra_name = initcap(fra_name))
-//        )
-//        /
