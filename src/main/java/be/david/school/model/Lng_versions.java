@@ -21,27 +21,27 @@ public class Lng_versions {
     private String lnv_name;
 
     @OneToOne
-    @JoinColumn(name = "CNT_ID")
+    @JoinColumn(name = "CNT_ID", foreignKey = @ForeignKey(name="rf_cnt_id_lnv"))
     private Country cnt_id;
 
     @OneToOne
-    @JoinColumn(name = "NTF_ID")
+    @JoinColumn(name = "NTF_ID", foreignKey = @ForeignKey(name="rf_ntf_id_lnv"))
     private Ntn_films Ntf_id;
 
     @OneToOne
-    @JoinColumn(name = "SND_ID")
+    @JoinColumn(name = "SND_ID", foreignKey = @ForeignKey(name="rf_snd_id_lnv"))
     private Sounds snd_id;
 
     @OneToOne
-    @JoinColumn(name = "SBT_ID")
+    @JoinColumn(name = "SBT_ID", foreignKey = @ForeignKey(name="rf_sbt_id_lnv"))
     private Subtitles Sbt_id;
 
     @OneToOne
-    @JoinColumn(name = "FRM_ID")
+    @JoinColumn(name = "FRM_ID", foreignKey = @ForeignKey(name="rf_frm_id_lnv"))
     private Formats frm_id;
 
     @OneToOne
-    @JoinColumn(name = "LNG_ID")
+    @JoinColumn(name = "LNG_ID", foreignKey = @ForeignKey(name="rf_lng_id_lnv"))
     private Languages lng_id;
 
     @Column(name = "LNV_RELEASEDATE", nullable = false)

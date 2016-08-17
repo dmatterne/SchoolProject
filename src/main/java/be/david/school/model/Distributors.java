@@ -18,7 +18,7 @@ public class Distributors {
     private int dst_id;
 
     @OneToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "CNT_ID")
+    @JoinColumn(name = "CNT_ID", foreignKey = @ForeignKey(name="rf_cnt_id"))
     private Country cnt_id;
 
     @Column(name = "DST_NAME", nullable = false, length = 30 )

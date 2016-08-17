@@ -19,11 +19,11 @@ public class Ntn_films {
     private String ntf_name;
 
     @OneToOne
-    @JoinColumn(name = "ORF_ID")
+    @JoinColumn(name = "ORF_ID", foreignKey = @ForeignKey(name="rf_orf_id"))
     private Org_films orf_id;
 
     @OneToOne
-    @JoinColumn(name = "FRA_ID")
+    @JoinColumn(name = "FRA_ID", foreignKey = @ForeignKey(name="rf_fra_id"))
     private Flm_ratings fra_id;
 
     @Enumerated(EnumType.STRING)

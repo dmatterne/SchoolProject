@@ -1,12 +1,27 @@
 package be.david.school.model;
 
-import javax.persistence.Entity;
+import javax.persistence.*;
 
 /**
  * Created by David on 15/08/2016.
  */
 @Entity
+@Table(name = "FLM_AWARDS", uniqueConstraints = @UniqueConstraint(name = "pr_flm_awards", columnNames = {"FLA_ID"}))
 public class Flm_awards {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SEQ_FLA")
+    @SequenceGenerator(name = "SEQ_FLA", sequenceName = "SEQ_FLA", initialValue = 1, allocationSize = 1)
+    @Column(name = "FLA_ID", )
+    private int fla_id;
+
+    @Column(name = "FLA_NAME", nullable = false, length = 15)
+    private String fla_name;
+
+    @OneToOne
+    @JoinColumn(name = "FLI_ID", referencedColumnName = "FLI_ID")
+    private int fli_id;
+
 }
 //
 //    CREATE TABLE FLM_AWARDS

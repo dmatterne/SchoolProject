@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86871344-ca25-42fe-baac-9099e22762d4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/model/YesNo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Cmp_features.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/model/Cmp_features.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Cmp_languages.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/model/Cmp_languages.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Customers.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/model/Customers.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Distributors.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/model/Distributors.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Flm_awards.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/model/Flm_awards.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Hll_complex.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/model/Hll_complex.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Lng_versions.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/model/Lng_versions.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Ntn_films.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/model/Ntn_films.java" />
     </list>
     <ignored path="SchoolProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -93,60 +97,66 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cmp_features.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/model/Cmp_features.java">
+      <file leaf-file-name="CreateKinepolis.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data/CreateKinepolis.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="108" column="52" selection-start-line="108" selection-start-column="38" selection-end-line="108" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3022#3023#0" expanded="true" />
-                <element signature="e#3074#3075#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-1515">
+              <caret line="48" column="52" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="52" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Customers.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Customers.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/model/Customers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
+            <state relative-caret-position="375">
               <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1063#1064#0" expanded="true" />
-                <element signature="e#1104#1105#0" expanded="true" />
-                <element signature="e#1140#1141#0" expanded="true" />
-                <element signature="e#1183#1184#0" expanded="true" />
-                <element signature="e#1219#1220#0" expanded="true" />
-                <element signature="e#1280#1281#0" expanded="true" />
-                <element signature="e#1330#1331#0" expanded="true" />
-                <element signature="e#1365#1366#0" expanded="true" />
-                <element signature="e#1396#1397#0" expanded="true" />
-                <element signature="e#1444#1445#0" expanded="true" />
-                <element signature="e#1484#1485#0" expanded="true" />
-                <element signature="e#1522#1523#0" expanded="true" />
-                <element signature="e#1556#1557#0" expanded="true" />
-                <element signature="e#1610#1611#0" expanded="true" />
-                <element signature="e#1656#1657#0" expanded="true" />
-                <element signature="e#1687#1688#0" expanded="true" />
-                <element signature="e#1717#1718#0" expanded="true" />
-                <element signature="e#1760#1761#0" expanded="true" />
-                <element signature="e#1798#1799#0" expanded="true" />
-                <element signature="e#1830#1831#0" expanded="true" />
-                <element signature="e#1858#1859#0" expanded="true" />
-                <element signature="e#1900#1901#0" expanded="true" />
-                <element signature="e#1934#1935#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Hll_complex.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Cmp_features.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/model/Cmp_features.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="23" column="79" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="79" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Flm_awards.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/model/Flm_awards.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JoinColumn.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar!/javax/persistence/JoinColumn.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hll_complex.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/model/Hll_complex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="619">
+              <caret line="60" column="28" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -157,8 +167,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -173,8 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/be/david/school/model/Formats.java" />
-        <option value="$PROJECT_DIR$/src/test/java/be/david/school/GenrePersistenceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/david/school/bean/GenreRepositoryBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/david/school/repository/GenreRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/david/school/repository/GenresRepository.java" />
@@ -189,14 +197,11 @@
         <option value="$PROJECT_DIR$/src/main/java/be/david/school/model/Flm_info.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/david/school/model/Org_films.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/david/school/model/Country.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/david/school/model/Distributors.java" />
         <option value="$PROJECT_DIR$/src/test/java/be/david/school/LanguagesPersistenceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/be/david/school/GenresPersistenceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/be/david/school/Flm_infoPersistenceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/be/david/school/Org_filmsPersistenceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/be/david/school/Ntn_filmsPersistenceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/david/school/model/Ntn_films.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/david/school/model/Lng_versions.java" />
         <option value="$PROJECT_DIR$/src/test/java/be/david/school/Lng_versionsPersistenceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/david/school/repository/Cmp_FeaturesRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/david/school/bean/Cmp_FeaturesRepositoryBean.java" />
@@ -207,7 +212,6 @@
         <option value="$PROJECT_DIR$/src/main/java/be/david/school/bean/DiscountsRepositoryBean.java" />
         <option value="$PROJECT_DIR$/src/test/java/be/david/school/DiscountsPersistenceTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/Kinepolis.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/be/david/school/model/Hll_complex.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/david/school/model/Users.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/david/school/model/Persons.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/david/school/model/Scores.java" />
@@ -219,11 +223,17 @@
         <option value="$PROJECT_DIR$/src/main/java/be/david/school/model/Flm_reviews.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/david/school/model/Trailers.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/david/school/model/Photos.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/david/school/model/Flm_awards.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/david/school/model/Logins.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/david/school/model/Cmp_languages.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/david/school/model/Cmp_features.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/david/school/model/Customers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/david/school/model/Flm_awards.java" />
+        <option value="$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar!/javax/persistence/JoinColumn.class" />
+        <option value="$PROJECT_DIR$/src/main/java/be/david/school/model/Distributors.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/david/school/model/Ntn_films.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/david/school/model/Lng_versions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/david/school/model/Cmp_features.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/david/school/model/YesNo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/david/school/model/Hll_complex.java" />
       </list>
     </option>
   </component>
@@ -985,35 +995,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/bean/LanguagesRepositoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/model/Languages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/model/Flm_info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-98">
-          <caret line="57" column="32" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/model/Genres.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-163">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/be/david/school/FormatsPersistenceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -1032,6 +1013,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1039,17 +1021,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/231f8f6f/c77bf1e2-6ce9-4e27-ba7a-93654e8c8717/KINEPOLIS.DISTRIBUTORS" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/model/Distributors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/be/david/school/LanguagesPersistenceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -1089,6 +1065,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1100,13 +1077,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/model/Ntn_films.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="74" column="37" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1114,6 +1085,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1188,13 +1160,6 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/231f8f6f/c77bf1e2-6ce9-4e27-ba7a-93654e8c8717/KINEPOLIS.DISCOUNTS" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/model/Lng_versions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/model/Users.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -1234,6 +1199,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1248,6 +1214,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1259,13 +1226,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/model/Scores.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/model/Flm_awards.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
@@ -1288,11 +1248,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/model/Hll_complex.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar!/javax/persistence/JoinColumn.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="225">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/model/Flm_awards.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/model/Distributors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="20" column="75" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/model/Ntn_films.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="70" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
+          <folding>
+            <element signature="e#1924#1925#0" expanded="true" />
+            <element signature="e#1960#1961#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/model/Lng_versions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="43" column="77" selection-start-line="43" selection-start-column="77" selection-end-line="43" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1306,48 +1303,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/model/Cmp_features.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="108" column="52" selection-start-line="108" selection-start-column="38" selection-end-line="108" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3022#3023#0" expanded="true" />
-            <element signature="e#3074#3075#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/model/Customers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
+        <state relative-caret-position="375">
           <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1063#1064#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1140#1141#0" expanded="true" />
-            <element signature="e#1183#1184#0" expanded="true" />
-            <element signature="e#1219#1220#0" expanded="true" />
-            <element signature="e#1280#1281#0" expanded="true" />
-            <element signature="e#1330#1331#0" expanded="true" />
-            <element signature="e#1365#1366#0" expanded="true" />
-            <element signature="e#1396#1397#0" expanded="true" />
-            <element signature="e#1444#1445#0" expanded="true" />
-            <element signature="e#1484#1485#0" expanded="true" />
-            <element signature="e#1522#1523#0" expanded="true" />
-            <element signature="e#1556#1557#0" expanded="true" />
-            <element signature="e#1610#1611#0" expanded="true" />
-            <element signature="e#1656#1657#0" expanded="true" />
-            <element signature="e#1687#1688#0" expanded="true" />
-            <element signature="e#1717#1718#0" expanded="true" />
-            <element signature="e#1760#1761#0" expanded="true" />
-            <element signature="e#1798#1799#0" expanded="true" />
-            <element signature="e#1830#1831#0" expanded="true" />
-            <element signature="e#1858#1859#0" expanded="true" />
-            <element signature="e#1900#1901#0" expanded="true" />
-            <element signature="e#1934#1935#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/CreateKinepolis.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1515">
+          <caret line="48" column="52" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/model/YesNo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar!/javax/persistence/Enumerated.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/model/Cmp_features.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="23" column="79" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/model/Hll_complex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="60" column="28" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>

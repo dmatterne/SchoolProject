@@ -21,7 +21,7 @@ public class Cmp_features {
     private String cmf_name;
 
     @OneToOne
-    @JoinColumn(name = "CNT_ID")
+    @JoinColumn(name = "CNT_ID", foreignKey = @ForeignKey(name="rf_cnt_id_cmf"))
     private Country cnt_id;
 
     @Column(name = "CMF_ADDRESS", nullable = false, length = 50)
