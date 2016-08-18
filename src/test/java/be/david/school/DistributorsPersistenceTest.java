@@ -1,11 +1,8 @@
 package be.david.school;
 
-import be.david.school.bean.DistributorsRepositoryBean;
-import be.david.school.bean.SubtitlesRepositoryBean;
+import be.david.school.repository_bean.DistributorsRepositoryBean;
 import be.david.school.model.Distributors;
-import be.david.school.model.Subtitles;
 import be.david.school.repository.DistributorsRepository;
-import be.david.school.repository.SubtitlesRepository;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;

@@ -1,11 +1,8 @@
 package be.david.school;
 
-import be.david.school.bean.Cmp_FeaturesRepositoryBean;
-import be.david.school.bean.Lng_versionsRepositoryBean;
+import be.david.school.repository_bean.Cmp_FeaturesRepositoryBean;
 import be.david.school.model.Cmp_features;
-import be.david.school.model.Lng_versions;
 import be.david.school.repository.Cmp_FeaturesRepository;
-import be.david.school.repository.Lng_versionsRepository;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;

@@ -1,10 +1,7 @@
 package be.david.school;
 
-import be.david.school.bean.CountryRepositoryBean;
-import be.david.school.bean.GenresRepositoryBean;
-import be.david.school.model.Country;
+import be.david.school.repository_bean.GenresRepositoryBean;
 import be.david.school.model.Genres;
-import be.david.school.repository.CountryRepository;
 import be.david.school.repository.GenresRepository;
 import org.junit.Rule;
 import org.junit.Test;

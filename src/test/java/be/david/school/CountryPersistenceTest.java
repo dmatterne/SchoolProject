@@ -1,6 +1,6 @@
 package be.david.school;
 
-import be.david.school.bean.CountryRepositoryBean;
+import be.david.school.repository_bean.CountryRepositoryBean;
 import be.david.school.model.Country;
 import be.david.school.repository.CountryRepository;
 import org.junit.Rule;

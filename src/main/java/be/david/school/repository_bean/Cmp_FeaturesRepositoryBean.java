@@ -1,9 +1,7 @@
-package be.david.school.bean;
+package be.david.school.repository_bean;
 
 import be.david.school.model.Cmp_features;
-import be.david.school.model.Country;
 import be.david.school.repository.Cmp_FeaturesRepository;
-import be.david.school.repository.CountryRepository;
 
 import javax.persistence.EntityManager;
 import java.util.List;

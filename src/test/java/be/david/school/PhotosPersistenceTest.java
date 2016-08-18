@@ -1,10 +1,7 @@
 package be.david.school;
 
-import be.david.school.bean.CountryRepositoryBean;
-import be.david.school.bean.PhotosRepositoryBean;
-import be.david.school.model.Country;
+import be.david.school.repository_bean.PhotosRepositoryBean;
 import be.david.school.model.Photos;
-import be.david.school.repository.CountryRepository;
 import be.david.school.repository.PhotosRepository;
 import org.junit.Rule;
 import org.junit.Test;

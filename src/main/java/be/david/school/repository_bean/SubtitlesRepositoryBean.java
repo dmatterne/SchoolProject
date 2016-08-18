@@ -1,8 +1,6 @@
-package be.david.school.bean;
+package be.david.school.repository_bean;
 
-import be.david.school.model.Flm_ratings;
 import be.david.school.model.Subtitles;
-import be.david.school.repository.Flm_ratingsRepository;
 import be.david.school.repository.SubtitlesRepository;
 
 import javax.persistence.EntityManager;

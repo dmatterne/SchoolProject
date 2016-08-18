@@ -1,11 +1,8 @@
 package be.david.school;
 
-import be.david.school.bean.Flm_infoRepositoryBean;
-import be.david.school.bean.FormatsRepositoryBean;
+import be.david.school.repository_bean.Flm_infoRepositoryBean;
 import be.david.school.model.Flm_info;
-import be.david.school.model.Formats;
 import be.david.school.repository.Flm_infoRepository;
-import be.david.school.repository.FormatsRepository;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;

@@ -433,7 +433,7 @@ public class Complex implements Serializable
 
    /**
     * Returns the string content. This string can first be built using other
-    * functions in this bean.
+    * functions in this repository_bean.
     * 
     * @return
     *  content string.

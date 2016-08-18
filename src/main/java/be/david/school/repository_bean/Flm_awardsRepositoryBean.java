@@ -1,8 +1,6 @@
-package be.david.school.bean;
+package be.david.school.repository_bean;
 
-import be.david.school.model.Customers;
 import be.david.school.model.Flm_awards;
-import be.david.school.repository.CustomersRepository;
 import be.david.school.repository.Flm_awardsRepository;
 
 import javax.persistence.EntityManager;

@@ -1,10 +1,7 @@
 package be.david.school;
 
-import be.david.school.bean.CountryRepositoryBean;
-import be.david.school.bean.Flm_reviewsRepositoryBean;
-import be.david.school.model.Country;
+import be.david.school.repository_bean.Flm_reviewsRepositoryBean;
 import be.david.school.model.Flm_reviews;
-import be.david.school.repository.CountryRepository;
 import be.david.school.repository.Flm_reviewsRepository;
 import org.junit.Rule;
 import org.junit.Test;

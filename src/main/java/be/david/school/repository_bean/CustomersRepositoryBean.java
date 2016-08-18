@@ -1,8 +1,6 @@
-package be.david.school.bean;
+package be.david.school.repository_bean;
 
-import be.david.school.model.Country;
 import be.david.school.model.Customers;
-import be.david.school.repository.CountryRepository;
 import be.david.school.repository.CustomersRepository;
 
 import javax.persistence.EntityManager;

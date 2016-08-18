@@ -1,9 +1,7 @@
-package be.david.school.bean;
+package be.david.school.repository_bean;
 
 import be.david.school.model.Flm_info;
-import be.david.school.model.Formats;
 import be.david.school.repository.Flm_infoRepository;
-import be.david.school.repository.FormatsRepository;
 
 import javax.persistence.EntityManager;
 import java.util.List;

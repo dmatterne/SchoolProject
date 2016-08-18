@@ -1,10 +1,7 @@
 package be.david.school;
 
-import be.david.school.bean.CountryRepositoryBean;
-import be.david.school.bean.TrailersRepositoryBean;
-import be.david.school.model.Country;
+import be.david.school.repository_bean.TrailersRepositoryBean;
 import be.david.school.model.Trailers;
-import be.david.school.repository.CountryRepository;
 import be.david.school.repository.TrailersRepository;
 import org.junit.Rule;
 import org.junit.Test;

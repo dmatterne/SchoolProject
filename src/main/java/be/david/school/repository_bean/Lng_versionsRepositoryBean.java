@@ -1,8 +1,6 @@
-package be.david.school.bean;
+package be.david.school.repository_bean;
 
-import be.david.school.model.Formats;
 import be.david.school.model.Lng_versions;
-import be.david.school.repository.FormatsRepository;
 import be.david.school.repository.Lng_versionsRepository;
 
 import javax.persistence.EntityManager;

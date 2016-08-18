@@ -1,10 +1,7 @@
 package be.david.school;
 
-import be.david.school.bean.CountryRepositoryBean;
-import be.david.school.bean.Hll_complexRepositoryBean;
-import be.david.school.model.Country;
+import be.david.school.repository_bean.Hll_complexRepositoryBean;
 import be.david.school.model.Hll_complex;
-import be.david.school.repository.CountryRepository;
 import be.david.school.repository.Hll_complexRepository;
 import org.junit.Rule;
 import org.junit.Test;

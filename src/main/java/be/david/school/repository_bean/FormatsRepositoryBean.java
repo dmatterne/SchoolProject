@@ -1,4 +1,4 @@
-package be.david.school.bean;
+package be.david.school.repository_bean;
 
 import be.david.school.model.Formats;
 import be.david.school.repository.FormatsRepository;
