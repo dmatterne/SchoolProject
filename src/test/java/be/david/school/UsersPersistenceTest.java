@@ -30,7 +30,7 @@ public class UsersPersistenceTest extends DataSetPersistenceTest {
     public void FindAllUsers() {
         UsersRepository ur = new UsersRepositoryBean(entityManager());
         List<Users> urs = ur.findAllUsers();
-        assertEquals(5, urs.size());
+        assertEquals(1, urs.size());
     }
 
 }

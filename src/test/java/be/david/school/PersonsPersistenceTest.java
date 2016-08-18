@@ -30,6 +30,6 @@ public class PersonsPersistenceTest extends DataSetPersistenceTest {
     public void FindAllPersons() {
         PersonsRepository pr = new PersonsRepositoryBean(entityManager());
         List<Persons> prs = pr.findAllPersons();
-        assertEquals(5, prs.size());
+        assertEquals(6, prs.size());
     }
 }

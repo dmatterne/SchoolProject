@@ -30,27 +30,7 @@ public class ScoresPersistenceTest extends DataSetPersistenceTest {
     public void FindAllScores() {
         ScoresRepository sr = new ScoresRepositoryBean(entityManager());
         List<Scores> srs = sr.findAllScores();
-        assertEquals(5, srs.size());
+        assertEquals(3, srs.size());
     }
-//    @Test
-//    public void bookCanBePersisted() throws Exception {
-//        Collection a = new ArrayList<String>();
-//        a.add("George Orwell");
-//        Book book = new Book("Animal Farm", a, Book.Genre.thriller);
-//        entityManager().persist(book);
-//        assertNotNull(book.getId());
-//    }
-//
-//    @Test(expected = PersistenceException.class)
-//    public void bookCanNotBePersistedWithoutTitle() throws Exception {
-//        Collection a = new ArrayList<String>();
-//        a.add("George Orwell");
-//        Book book = new Book(null, a, Book.Genre.thriller);
-//        entityManager().persist(book);
-//    }
-//
-//    @Test
-//    public void bookCanBeRetrievedById() throws Exception {
-//        assertEquals("Nineteen Eighty Four", entityManager().find(Book.class, 1000).getTitle());
-//    }
+
 }

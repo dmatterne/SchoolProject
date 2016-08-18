@@ -30,6 +30,6 @@ public class Flm_crewsPersistenceTest extends DataSetPersistenceTest {
     public void FindAllCountries() {
         Flm_crewsRepository fr = new Flm_crewsRepositoryBean(entityManager());
         List<Flm_crews> frs = fr.findAllFlm_crews();
-        assertEquals(5, frs.size());
+        assertEquals(1, frs.size());
     }
 }

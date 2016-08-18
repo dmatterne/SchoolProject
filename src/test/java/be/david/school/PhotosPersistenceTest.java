@@ -30,6 +30,6 @@ public class PhotosPersistenceTest extends DataSetPersistenceTest {
     public void FindAllPhotos() {
         PhotosRepository pr = new PhotosRepositoryBean(entityManager());
         List<Photos> prs = pr.findAllPhotos();
-        assertEquals(5, prs.size());
+        assertEquals(3, prs.size());
     }
 }

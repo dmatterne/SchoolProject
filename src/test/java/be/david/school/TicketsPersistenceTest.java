@@ -30,7 +30,7 @@ public class TicketsPersistenceTest extends DataSetPersistenceTest {
     public void FindAllTickets() {
         TicketsRepository tr = new TicketsRepositoryBean(entityManager());
         List<Tickets> trs = tr.findAllTickets();
-        assertEquals(5, trs.size());
+        assertEquals(2, trs.size());
     }
 
 }

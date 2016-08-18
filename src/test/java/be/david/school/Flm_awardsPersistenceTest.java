@@ -30,6 +30,6 @@ public class Flm_awardsPersistenceTest extends DataSetPersistenceTest {
     public void FindAllFlm_awards() {
         Flm_awardsRepository fr = new Flm_awardsRepositoryBean(entityManager());
         List<Flm_awards> frs = fr.findAllFlm_awards();
-        assertEquals(5, frs.size());
+        assertEquals(3, frs.size());
     }
 }

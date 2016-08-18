@@ -30,6 +30,6 @@ public class TrailersPersistenceTest extends DataSetPersistenceTest {
     public void FindAllTrailers() {
         TrailersRepository tr = new TrailersRepositoryBean(entityManager());
         List<Trailers> trs = tr.findAllTrailers();
-        assertEquals(5, trs.size());
+        assertEquals(3, trs.size());
     }
 }

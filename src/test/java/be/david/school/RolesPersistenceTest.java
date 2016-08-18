@@ -30,7 +30,7 @@ public class RolesPersistenceTest extends DataSetPersistenceTest {
     public void FindAllRoles() {
         RolesRepository rr = new RolesRepositoryBean(entityManager());
         List<Roles> rrs = rr.findAllRoles();
-        assertEquals(5, rrs.size());
+        assertEquals(3, rrs.size());
     }
 
 }

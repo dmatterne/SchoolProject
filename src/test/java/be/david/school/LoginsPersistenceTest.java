@@ -30,6 +30,6 @@ public class LoginsPersistenceTest extends DataSetPersistenceTest {
     public void FindAllLogins() {
         LoginsRepository lr = new LoginsRepositoryBean(entityManager());
         List<Logins> lrs = lr.findAllLogins();
-        assertEquals(5, lrs.size());
+        assertEquals(1, lrs.size());
     }
 }
