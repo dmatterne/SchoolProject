@@ -1,7 +1,7 @@
 package be.david.school;
 
 import be.david.school.repository_bean.Flm_crewsRepositoryBean;
-import be.david.school.model.Flm_crews;
+import be.david.school.dbmodel.Flm_crews;
 import be.david.school.repository.Flm_crewsRepository;
 import org.junit.Rule;
 import org.junit.Test;

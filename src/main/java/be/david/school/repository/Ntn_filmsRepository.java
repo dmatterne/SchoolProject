@@ -1,7 +1,6 @@
 package be.david.school.repository;
 
-import be.david.school.model.Lng_versions;
-import be.david.school.model.Ntn_films;
+import be.david.school.dbmodel.Ntn_films;
 
 import java.util.List;
 

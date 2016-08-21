@@ -1,6 +1,6 @@
 package be.david.school.repository_bean;
 
-import be.david.school.model.Ntn_films;
+import be.david.school.dbmodel.Ntn_films;
 import be.david.school.repository.Ntn_filmsRepository;
 
 import javax.persistence.EntityManager;

@@ -1,7 +1,6 @@
 package be.david.school.repository;
 
-import be.david.school.model.Flm_info;
-import be.david.school.model.Lng_versions;
+import be.david.school.dbmodel.Flm_info;
 
 import java.util.List;
 

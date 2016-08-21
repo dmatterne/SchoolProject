@@ -1,7 +1,6 @@
 package be.david.school.repository;
 
-import be.david.school.model.Formats;
-import be.david.school.model.Subtitles;
+import be.david.school.dbmodel.Formats;
 
 import java.util.List;
 

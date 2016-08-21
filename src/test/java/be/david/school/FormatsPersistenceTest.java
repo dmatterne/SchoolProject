@@ -1,7 +1,7 @@
 package be.david.school;
 
 import be.david.school.repository_bean.FormatsRepositoryBean;
-import be.david.school.model.Formats;
+import be.david.school.dbmodel.Formats;
 import be.david.school.repository.FormatsRepository;
 import org.junit.Rule;
 import org.junit.Test;

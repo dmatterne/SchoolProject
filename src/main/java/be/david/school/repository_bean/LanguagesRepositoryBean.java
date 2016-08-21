@@ -1,6 +1,6 @@
 package be.david.school.repository_bean;
 
-import be.david.school.model.Languages;
+import be.david.school.dbmodel.Languages;
 import be.david.school.repository.LanguagesRepository;
 
 import javax.persistence.EntityManager;

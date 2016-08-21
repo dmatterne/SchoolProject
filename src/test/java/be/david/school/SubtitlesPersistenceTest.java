@@ -1,7 +1,7 @@
 package be.david.school;
 
 import be.david.school.repository_bean.SubtitlesRepositoryBean;
-import be.david.school.model.Subtitles;
+import be.david.school.dbmodel.Subtitles;
 import be.david.school.repository.SubtitlesRepository;
 import org.junit.Rule;
 import org.junit.Test;

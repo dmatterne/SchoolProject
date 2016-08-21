@@ -1,7 +1,6 @@
 package be.david.school.repository;
 
-import be.david.school.model.Cmp_features;
-import be.david.school.model.Tickets;
+import be.david.school.dbmodel.Tickets;
 
 import java.util.List;
 

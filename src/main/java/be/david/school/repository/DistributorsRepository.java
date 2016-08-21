@@ -1,7 +1,6 @@
 package be.david.school.repository;
 
-import be.david.school.model.Distributors;
-import be.david.school.model.Formats;
+import be.david.school.dbmodel.Distributors;
 
 import java.util.List;
 

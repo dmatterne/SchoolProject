@@ -1,6 +1,6 @@
 package be.david.school.repository_bean;
 
-import be.david.school.model.Formats;
+import be.david.school.dbmodel.Formats;
 import be.david.school.repository.FormatsRepository;
 
 import javax.persistence.EntityManager;

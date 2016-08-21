@@ -1,7 +1,7 @@
 package be.david.school;
 
 import be.david.school.repository_bean.PhotosRepositoryBean;
-import be.david.school.model.Photos;
+import be.david.school.dbmodel.Photos;
 import be.david.school.repository.PhotosRepository;
 import org.junit.Rule;
 import org.junit.Test;

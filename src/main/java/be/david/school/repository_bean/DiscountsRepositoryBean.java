@@ -1,6 +1,6 @@
 package be.david.school.repository_bean;
 
-import be.david.school.model.Discounts;
+import be.david.school.dbmodel.Discounts;
 import be.david.school.repository.DiscountsRepository;
 
 import javax.persistence.EntityManager;

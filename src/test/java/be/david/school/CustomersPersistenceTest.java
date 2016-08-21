@@ -1,7 +1,7 @@
 package be.david.school;
 
 import be.david.school.repository_bean.CustomersRepositoryBean;
-import be.david.school.model.Customers;
+import be.david.school.dbmodel.Customers;
 import be.david.school.repository.CustomersRepository;
 import org.junit.Rule;
 import org.junit.Test;

@@ -1,6 +1,6 @@
 package be.david.school.repository_bean;
 
-import be.david.school.model.Users;
+import be.david.school.dbmodel.Users;
 import be.david.school.repository.UsersRepository;
 
 import javax.persistence.EntityManager;

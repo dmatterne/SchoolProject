@@ -1,7 +1,7 @@
 package be.david.school;
 
 import be.david.school.repository_bean.Ntn_filmsRepositoryBean;
-import be.david.school.model.Ntn_films;
+import be.david.school.dbmodel.Ntn_films;
 import be.david.school.repository.Ntn_filmsRepository;
 import org.junit.Rule;
 import org.junit.Test;

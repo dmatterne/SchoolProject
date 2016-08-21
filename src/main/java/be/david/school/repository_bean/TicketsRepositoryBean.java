@@ -1,6 +1,6 @@
 package be.david.school.repository_bean;
 
-import be.david.school.model.Tickets;
+import be.david.school.dbmodel.Tickets;
 import be.david.school.repository.TicketsRepository;
 
 import javax.persistence.EntityManager;

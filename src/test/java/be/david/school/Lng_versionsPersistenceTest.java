@@ -1,7 +1,7 @@
 package be.david.school;
 
 import be.david.school.repository_bean.Lng_versionsRepositoryBean;
-import be.david.school.model.Lng_versions;
+import be.david.school.dbmodel.Lng_versions;
 import be.david.school.repository.Lng_versionsRepository;
 import org.junit.Rule;
 import org.junit.Test;

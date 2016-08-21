@@ -1,7 +1,6 @@
 package be.david.school.repository;
 
-import be.david.school.model.Cmp_features;
-import be.david.school.model.Country;
+import be.david.school.dbmodel.Cmp_features;
 
 import java.util.List;
 

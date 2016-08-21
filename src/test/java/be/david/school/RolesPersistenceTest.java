@@ -1,7 +1,7 @@
 package be.david.school;
 
 import be.david.school.repository_bean.RolesRepositoryBean;
-import be.david.school.model.Roles;
+import be.david.school.dbmodel.Roles;
 import be.david.school.repository.RolesRepository;
 import org.junit.Rule;
 import org.junit.Test;

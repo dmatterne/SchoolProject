@@ -1,7 +1,7 @@
 package be.david.school;
 
 import be.david.school.repository_bean.LoginsRepositoryBean;
-import be.david.school.model.Logins;
+import be.david.school.dbmodel.Logins;
 import be.david.school.repository.LoginsRepository;
 import org.junit.Rule;
 import org.junit.Test;

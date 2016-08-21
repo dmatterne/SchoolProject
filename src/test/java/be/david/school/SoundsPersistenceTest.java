@@ -1,7 +1,7 @@
 package be.david.school;
 
 import be.david.school.repository_bean.SoundsRepositoryBean;
-import be.david.school.model.Sounds;
+import be.david.school.dbmodel.Sounds;
 import be.david.school.repository.SoundsRepository;
 import org.junit.Rule;
 import org.junit.Test;

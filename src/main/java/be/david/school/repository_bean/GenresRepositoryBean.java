@@ -1,6 +1,6 @@
 package be.david.school.repository_bean;
 
-import be.david.school.model.Genres;
+import be.david.school.dbmodel.Genres;
 import be.david.school.repository.GenresRepository;
 
 import javax.persistence.EntityManager;

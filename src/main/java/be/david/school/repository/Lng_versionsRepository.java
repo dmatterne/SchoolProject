@@ -1,7 +1,6 @@
 package be.david.school.repository;
 
-import be.david.school.model.Formats;
-import be.david.school.model.Lng_versions;
+import be.david.school.dbmodel.Lng_versions;
 
 import java.util.List;
 

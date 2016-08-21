@@ -1,6 +1,6 @@
 package be.david.school.repository_bean;
 
-import be.david.school.model.Sounds;
+import be.david.school.dbmodel.Sounds;
 import be.david.school.repository.SoundsRepository;
 
 import javax.persistence.EntityManager;

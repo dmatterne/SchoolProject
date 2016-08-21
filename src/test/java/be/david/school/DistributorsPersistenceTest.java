@@ -1,7 +1,7 @@
 package be.david.school;
 
 import be.david.school.repository_bean.DistributorsRepositoryBean;
-import be.david.school.model.Distributors;
+import be.david.school.dbmodel.Distributors;
 import be.david.school.repository.DistributorsRepository;
 import org.junit.Rule;
 import org.junit.Test;

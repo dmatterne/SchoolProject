@@ -1,7 +1,7 @@
 package be.david.school;
 
 import be.david.school.repository_bean.ScoresRepositoryBean;
-import be.david.school.model.Scores;
+import be.david.school.dbmodel.Scores;
 import be.david.school.repository.ScoresRepository;
 import org.junit.Rule;
 import org.junit.Test;

@@ -1,7 +1,7 @@
 package be.david.school;
 
 import be.david.school.repository_bean.Cmp_FeaturesRepositoryBean;
-import be.david.school.model.Cmp_features;
+import be.david.school.dbmodel.Cmp_features;
 import be.david.school.repository.Cmp_FeaturesRepository;
 import org.junit.Rule;
 import org.junit.Test;

@@ -1,6 +1,6 @@
 package be.david.school.repository_bean;
 
-import be.david.school.model.Subtitles;
+import be.david.school.dbmodel.Subtitles;
 import be.david.school.repository.SubtitlesRepository;
 
 import javax.persistence.EntityManager;

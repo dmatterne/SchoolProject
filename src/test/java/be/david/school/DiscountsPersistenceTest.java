@@ -1,7 +1,7 @@
 package be.david.school;
 
 import be.david.school.repository_bean.DiscountsRepositoryBean;
-import be.david.school.model.Discounts;
+import be.david.school.dbmodel.Discounts;
 import be.david.school.repository.DiscountsRepository;
 import org.junit.Rule;
 import org.junit.Test;

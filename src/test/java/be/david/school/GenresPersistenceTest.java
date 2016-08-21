@@ -1,7 +1,7 @@
 package be.david.school;
 
 import be.david.school.repository_bean.GenresRepositoryBean;
-import be.david.school.model.Genres;
+import be.david.school.dbmodel.Genres;
 import be.david.school.repository.GenresRepository;
 import org.junit.Rule;
 import org.junit.Test;

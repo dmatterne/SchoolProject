@@ -1,6 +1,6 @@
 package be.david.school.repository_bean;
 
-import be.david.school.model.Trailers;
+import be.david.school.dbmodel.Trailers;
 import be.david.school.repository.TrailersRepository;
 
 import javax.persistence.EntityManager;

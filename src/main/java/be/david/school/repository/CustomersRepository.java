@@ -1,7 +1,6 @@
 package be.david.school.repository;
 
-import be.david.school.model.Country;
-import be.david.school.model.Customers;
+import be.david.school.dbmodel.Customers;
 
 import java.util.List;
 

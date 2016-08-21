@@ -80,14 +80,14 @@
     <Cmp_languages lng_id="-1" cmf_id="-2"/>
     <Cmp_languages lng_id="-2" cmf_id="-1"/>
     <Customers cst_id="-1" cst_birthdate="1950-01-01"
-               cst_name="Jos Reekmans" cst_address="Genkersteenweg 12"
-               cst_tel="011871115" cst_email="j.reekmans@pandora.be"/>
+               cst_name="Jos Reens" cst_address="Gensteenweg 12"
+               cst_tel="011871115" cst_email="jkmans@pandora.be"/>
     <Customers cst_id="-2" cst_birthdate="1960-01-01"
-               cst_name="Carlo De Bakker" cst_address="Bergstraat 198"
-               cst_tel="011729199" cst_email="carlito@hotmail.com"/>
+               cst_name="Carl Bakker" cst_address="Bestraat 198"
+               cst_tel="011729199" cst_email="carlito@test.com"/>
     <Customers cst_id="-3" cst_birthdate="1980-01-01"
-               cst_name="Peter Ackaert" cst_address="Havenweg 2"
-               cst_tel="011272474" cst_email="peter_ackaert@belgacom.be"/>
+               cst_name="Peter ers" cst_address="Havenweg 2"
+               cst_tel="011272474" cst_email="peter_aert@test.be"/>
     <Hll_complex hlc_id="-1" cmf_id="-2" hlc_twinseat="YES" hlc_wheelchair="NO"
                  hlc_digitalversion="YES" hlc_cupholder="YES" hlc_capacity="210"
                  hlc_bookable="NO" hlc_distancescreenprojection="23" hlc_spaceinfrontofscreen="20 x 11"
@@ -100,9 +100,63 @@
                  hlc_digitalversion="YES" hlc_cupholder="NO" hlc_capacity="220"
                  hlc_bookable="YES" hlc_distancescreenprojection="20" hlc_spaceinfrontofscreen="22 x 11"
                  hlc_screenwidth="20 x 10"/>
-    <Programming prg_id = "-1" cmf_id = "-2" hlc_id = "-3" fli_id = "-1" prg_datetime = "2005-02-02" prg_price = "7" />
-    <Programming prg_id = "-2" cmf_id = "-1" hlc_id = "-2" fli_id = "-2" prg_datetime = "2006-02-02" prg_price = "8" />
-    <Programming prg_id = "-3" cmf_id = "-2" hlc_id = "-1" fli_id = "-1" prg_datetime = "2007-02-02" prg_price = "9" />
+    <Programming prg_id="-1" cmf_id="-2" hlc_id="-3" fli_id="-1" prg_datetime="2005-02-02" prg_price="7"/>
+    <Programming prg_id="-2" cmf_id="-1" hlc_id="-2" fli_id="-2" prg_datetime="2006-02-02" prg_price="8"/>
+    <Programming prg_id="-3" cmf_id="-2" hlc_id="-1" fli_id="-1" prg_datetime="2007-02-02" prg_price="9"/>
+
+    <Persons prs_id="-1" prs_name="D MA" prs_birthdate="1985-12-10" prs_sex="M" cnt_id="-1"/>
+    <Persons prs_id="-2" prs_name="D DE" prs_birthdate="1986-11-11" prs_sex="W" cnt_id="-2"/>
+    <Persons prs_id="-3" prs_name="J WO" prs_birthdate="1987-10-12" prs_sex="M" cnt_id="-3"/>
+    <Persons prs_id="-4" prs_name="B LU" prs_birthdate="1988-09-13" prs_sex="W" cnt_id="-4"/>
+    <Persons prs_id="-5" prs_name="W DE" prs_birthdate="1989-08-14" prs_sex="M" cnt_id="-5"/>
+    <Persons prs_id="-6" prs_name="G DA" prs_birthdate="1990-07-15" prs_sex="W" cnt_id="-1"/>
+
+    <Roles rls_id="-1" rls_description="Actor"/>
+    <Roles rls_id="-2" rls_description="Director"/>
+    <Roles rls_id="-3" rls_description="Stuntman"/>
+
+    <Scores scr_id="-1" scr_description="Not so good"/>
+    <Scores scr_id="-2" scr_description="Average"/>
+    <Scores scr_id="-3" scr_description="Good film , Good plot and a nice end"/>
+
+    <Flm_crews rls_id="-1" fli_id="-1" prs_id="-1" flc_character="Bambi" flc_award="Y"/>
+
+    <Flm_scores fls_id="-1" scr_id="-1" fls_name="Lorien Haynes" fls_public="YES" fli_id="-1"/>
+    <Flm_scores fls_id="-2" scr_id="-2" fls_name="JK Haynes" fls_public="YES" fli_id="-2"/>
+    <Flm_scores fls_id="-3" scr_id="-3" fls_name="Raptor Haynes" fls_public="NO" fli_id="-1"/>
+
+    <Flm_reviews fre_id="-1" fre_title="Review of pocahontas" fre_content="Lorem ipsum" fre_name="Lorien Haynes"
+                 fre_public="YES" lng_id="-1" fls_id="-1"/>
+    <Flm_reviews fre_id="-2" fre_title="Reviaw of bambi" fre_content="Lorem Ipsum 2" fre_name="JK Haynes"
+                 fre_public="YES" lng_id="-2" fls_id="-2"/>
+    <Flm_reviews fre_id="-3" fre_title="Review of titanic" fre_content="Lorem Ipsum 3" fre_name="Raptor Haynes"
+                 fre_public="NO" lng_id="-1" fls_id="-3"/>
+
+
+    <Trailers trl_id="-1" fli_id="-1" trl_trailer="23" trl_length="10" trl_name="Trailer1"/>
+    <Trailers trl_id="-2" fli_id="-2" trl_trailer="4F" trl_length="20" trl_name="Trailer2"/>
+    <Trailers trl_id="-3" fli_id="-1" trl_trailer="4C" trl_length="30" trl_name="Trailer3"/>
+
+    <Photos pht_id="-1" fli_id="-1" pht_photo="23F" pht_contenttype="jpg" pht_length="1" pht_name="movie1.jpg"/>
+    <Photos pht_id="-2" fli_id="-2" pht_photo="23" pht_contenttype="jpg" pht_length="2" pht_name="movie2.jpg"/>
+    <Photos pht_id="-3" fli_id="-1" pht_photo="CF" pht_contenttype="jpg" pht_length="3" pht_name="movie3.jpg"/>
+
+
+    <Flm_awards fla_id="-1" fla_name="3" fli_id="-1"/>
+    <Flm_awards fla_id="-2" fla_name="1" fli_id="-1"/>
+    <Flm_awards fla_id="-3" fla_name="5" fli_id="-2"/>
+
+    <Users usr_id = "-1" usr_address = "Address1" usr_birthday = "1985-10-01" usr_email = "test@test.com"
+    usr_function = "Admin" usr_password = "password" usr_sex = "M"
+    usr_tel = "0011" usr_username = "admin" cnt_id = "-1" usr_name = "admin" />
+
+    <Logins lgn_id = "-1" lgn_username = "Dmatterne" lgn_password = "dm" usr_id = "-1"
+            lgn_function = "Database verantwoordelijke, Layout- en naamgevings" cnt_id = "-1"
+            lgn_birthdate = "2000-01-01" lgn_email = "test@test.com" lgn_name = "admin" lgn_sex = "M" lgn_tel = "011" lgn_address = "address" />
+
+
+    <Tickets tck_id = "-1" prg_id = "-2" cst_id = "-3" dsc_id = "-1" tck_price = "7" usr_id = "-1" />
+    <Tickets tck_id = "-2" prg_id = "-1" cst_id = "-3" dsc_id = "-3" tck_price = "5" usr_id = "-1" />
 
 </dataset>
 

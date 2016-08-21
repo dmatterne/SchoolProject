@@ -1,7 +1,7 @@
 package be.david.school;
 
 import be.david.school.repository_bean.UsersRepositoryBean;
-import be.david.school.model.Users;
+import be.david.school.dbmodel.Users;
 import be.david.school.repository.UsersRepository;
 import org.junit.Rule;
 import org.junit.Test;

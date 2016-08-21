@@ -1,7 +1,7 @@
 package be.david.school;
 
 import be.david.school.repository_bean.TicketsRepositoryBean;
-import be.david.school.model.Tickets;
+import be.david.school.dbmodel.Tickets;
 import be.david.school.repository.TicketsRepository;
 import org.junit.Rule;
 import org.junit.Test;

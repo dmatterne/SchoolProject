@@ -1,6 +1,6 @@
 package be.david.school.repository_bean;
 
-import be.david.school.model.Flm_scores;
+import be.david.school.dbmodel.Flm_scores;
 import be.david.school.repository.Flm_scoresRepository;
 
 import javax.persistence.EntityManager;

@@ -1,7 +1,6 @@
 package be.david.school.repository;
 
-import be.david.school.model.Country;
-import be.david.school.model.Trailers;
+import be.david.school.dbmodel.Trailers;
 
 import java.util.List;
 

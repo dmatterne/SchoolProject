@@ -1,7 +1,6 @@
 package be.david.school.repository;
 
-import be.david.school.model.Customers;
-import be.david.school.model.Flm_crews;
+import be.david.school.dbmodel.Flm_crews;
 
 import java.util.List;
 

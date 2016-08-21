@@ -1,6 +1,6 @@
 package be.david.school.repository_bean;
 
-import be.david.school.model.Hll_complex;
+import be.david.school.dbmodel.Hll_complex;
 import be.david.school.repository.Hll_complexRepository;
 
 import javax.persistence.EntityManager;

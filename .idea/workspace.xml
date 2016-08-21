@@ -2,37 +2,152 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86871344-ca25-42fe-baac-9099e22762d4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/servlets/BarcodeTicket.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/bean/Cmp_FeaturesRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/Cmp_FeaturesRepositoryBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/bean/CountryRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/CountryRepositoryBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/bean/CustomersRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/CustomersRepositoryBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/bean/DiscountsRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/DiscountsRepositoryBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/bean/DistributorsRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/DistributorsRepositoryBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/bean/Flm_awardsRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/Flm_awardsRepositoryBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/bean/Flm_crewsRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/Flm_crewsRepositoryBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/bean/Flm_infoRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/Flm_infoRepositoryBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/bean/Flm_ratingsRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/Flm_ratingsRepositoryBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/bean/Flm_reviewsRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/Flm_reviewsRepositoryBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/bean/Flm_scoresRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/Flm_scoresRepositoryBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/bean/FormatsRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/FormatsRepositoryBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/bean/GenresRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/GenresRepositoryBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/bean/Hll_complexRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/Hll_complexRepositoryBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/bean/LanguagesRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/LanguagesRepositoryBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/bean/Lng_versionsRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/Lng_versionsRepositoryBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/bean/LoginsRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/LoginsRepositoryBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/bean/Ntn_filmsRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/Ntn_filmsRepositoryBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/bean/Org_filmsRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/Org_filmsRepositoryBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/bean/PersonsRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/PersonsRepositoryBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/bean/PhotosRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/PhotosRepositoryBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/bean/ProgrammingRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/ProgrammingRepositoryBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/bean/RolesRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/RolesRepositoryBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/bean/ScoresRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/ScoresRepositoryBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/bean/SoundsRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/SoundsRepositoryBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/bean/SubtitlesRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/SubtitlesRepositoryBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/bean/TicketsRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/TicketsRepositoryBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/bean/TrailersRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/TrailersRepositoryBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/bean/UsersRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/UsersRepositoryBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/Enums/Encryption.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/Enums/FormMethods.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/Enums/HtmlLanguages.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/Enums/OnOff.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/Enums/Targets.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/beans/StaticPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/Photos.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/PhotosId.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/Trailers.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/TrailersId.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/design/Designwrapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/html/DropDown.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/html/Form.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/html/Image.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/html/Input.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/html/Link.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/html/Table.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/html/Type.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/interfaces/FormElement.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Photos.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Trailers.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/be/david/school/bean/Cmp_FeaturesRepositoryBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/be/david/school/bean/CountryRepositoryBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/be/david/school/bean/CustomersRepositoryBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/be/david/school/bean/DiscountsRepositoryBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/be/david/school/bean/DistributorsRepositoryBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/be/david/school/bean/Flm_awardsRepositoryBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/be/david/school/bean/Flm_crewsRepositoryBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/be/david/school/bean/Flm_infoRepositoryBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/be/david/school/bean/Flm_ratingsRepositoryBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/be/david/school/bean/Flm_reviewsRepositoryBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/be/david/school/bean/Flm_scoresRepositoryBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/be/david/school/bean/FormatsRepositoryBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/be/david/school/bean/GenresRepositoryBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/be/david/school/bean/Hll_complexRepositoryBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/be/david/school/bean/LanguagesRepositoryBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/be/david/school/bean/Lng_versionsRepositoryBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/be/david/school/bean/LoginsRepositoryBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/be/david/school/bean/Ntn_filmsRepositoryBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/be/david/school/bean/Org_filmsRepositoryBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/be/david/school/bean/PersonsRepositoryBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/be/david/school/bean/PhotosRepositoryBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/be/david/school/bean/ProgrammingRepositoryBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/be/david/school/bean/RolesRepositoryBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/be/david/school/bean/ScoresRepositoryBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/be/david/school/bean/SoundsRepositoryBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/be/david/school/bean/SubtitlesRepositoryBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/be/david/school/bean/TicketsRepositoryBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/be/david/school/bean/TrailersRepositoryBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/be/david/school/bean/UsersRepositoryBean.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/be/david/school/model/Flm_reviews.class" afterPath="$PROJECT_DIR$/target/classes/be/david/school/model/Flm_reviews.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/be/david/school/model/Flm_scores.class" afterPath="$PROJECT_DIR$/target/classes/be/david/school/model/Flm_scores.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/be/david/school/model/Logins.class" afterPath="$PROJECT_DIR$/target/classes/be/david/school/model/Logins.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/be/david/school/model/Photos.class" afterPath="$PROJECT_DIR$/target/classes/be/david/school/model/Photos.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/be/david/school/model/Tickets.class" afterPath="$PROJECT_DIR$/target/classes/be/david/school/model/Tickets.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/be/david/school/model/Trailers.class" afterPath="$PROJECT_DIR$/target/classes/be/david/school/model/Trailers.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/be/david/school/Cmp_featuresPersistenceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/be/david/school/Cmp_featuresPersistenceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/be/david/school/CountryPersistenceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/be/david/school/CountryPersistenceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/be/david/school/CustomersPersistenceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/be/david/school/CustomersPersistenceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/be/david/school/DiscountsPersistenceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/be/david/school/DiscountsPersistenceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/be/david/school/DistributorsPersistenceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/be/david/school/DistributorsPersistenceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/be/david/school/Flm_RatingsPersistenceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/be/david/school/Flm_RatingsPersistenceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/be/david/school/Flm_awardsPersistenceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/be/david/school/Flm_awardsPersistenceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/be/david/school/Flm_crewsPersistenceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/be/david/school/Flm_crewsPersistenceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/be/david/school/Flm_infoPersistenceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/be/david/school/Flm_infoPersistenceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/be/david/school/Flm_reviewsPersistenceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/be/david/school/Flm_reviewsPersistenceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/be/david/school/Flm_scoresPersistenceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/be/david/school/Flm_scoresPersistenceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/be/david/school/FormatsPersistenceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/be/david/school/FormatsPersistenceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/be/david/school/GenresPersistenceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/be/david/school/GenresPersistenceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/be/david/school/Hll_complexPersistenceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/be/david/school/Hll_complexPersistenceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/be/david/school/LanguagesPersistenceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/be/david/school/LanguagesPersistenceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/be/david/school/Lng_versionsPersistenceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/be/david/school/Lng_versionsPersistenceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/be/david/school/LoginsPersistenceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/be/david/school/LoginsPersistenceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/be/david/school/Ntn_filmsPersistenceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/be/david/school/Ntn_filmsPersistenceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/be/david/school/Org_filmsPersistenceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/be/david/school/Org_filmsPersistenceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/be/david/school/PersonsPersistenceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/be/david/school/PersonsPersistenceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/be/david/school/PhotosPersistenceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/be/david/school/PhotosPersistenceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/be/david/school/ProgrammingPersistenceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/be/david/school/ProgrammingPersistenceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/be/david/school/RolesPersistenceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/be/david/school/RolesPersistenceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/be/david/school/ScoresPersistenceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/be/david/school/ScoresPersistenceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/be/david/school/SoundsPersistenceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/be/david/school/SoundsPersistenceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/be/david/school/SubtitlesPersistenceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/be/david/school/SubtitlesPersistenceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/be/david/school/TicketsPersistenceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/be/david/school/TicketsPersistenceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/be/david/school/TrailersPersistenceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/be/david/school/TrailersPersistenceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/be/david/school/UsersPersistenceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/be/david/school/UsersPersistenceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/c77bf1e2-6ce9-4e27-ba7a-93654e8c8717.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/c77bf1e2-6ce9-4e27-ba7a-93654e8c8717.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository/Cmp_FeaturesRepository.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository/Cmp_FeaturesRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository/CountryRepository.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository/CountryRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository/CustomersRepository.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository/CustomersRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository/DiscountsRepository.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository/DiscountsRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository/DistributorsRepository.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository/DistributorsRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository/Flm_awardsRepository.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository/Flm_awardsRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository/Flm_crewsRepository.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository/Flm_crewsRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository/Flm_infoRepository.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository/Flm_infoRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository/Flm_ratingsRepository.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository/Flm_ratingsRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository/Flm_reviewsRepository.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository/Flm_reviewsRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository/Flm_scoresRepository.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository/Flm_scoresRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository/FormatsRepository.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository/FormatsRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository/GenresRepository.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository/GenresRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository/Hll_complexRepository.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository/Hll_complexRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository/LanguagesRepository.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository/LanguagesRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository/Lng_versionsRepository.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository/Lng_versionsRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository/LoginsRepository.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository/LoginsRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository/Ntn_filmsRepository.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository/Ntn_filmsRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository/Org_filmsRepository.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository/Org_filmsRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository/PersonsRepository.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository/PersonsRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository/PhotosRepository.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository/PhotosRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository/ProgrammingRepository.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository/ProgrammingRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository/RolesRepository.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository/RolesRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository/ScoresRepository.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository/ScoresRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository/SoundsRepository.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository/SoundsRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository/SubtitlesRepository.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository/SubtitlesRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository/TicketsRepository.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository/TicketsRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository/TrailersRepository.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository/TrailersRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository/UsersRepository.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository/UsersRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/Cmp_FeaturesRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/Cmp_FeaturesRepositoryBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/CountryRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/CountryRepositoryBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/CustomersRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/CustomersRepositoryBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/DiscountsRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/DiscountsRepositoryBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/DistributorsRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/DistributorsRepositoryBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/Flm_awardsRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/Flm_awardsRepositoryBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/Flm_crewsRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/Flm_crewsRepositoryBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/Flm_infoRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/Flm_infoRepositoryBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/Flm_ratingsRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/Flm_ratingsRepositoryBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/Flm_reviewsRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/Flm_reviewsRepositoryBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/Flm_scoresRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/Flm_scoresRepositoryBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/FormatsRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/FormatsRepositoryBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/GenresRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/GenresRepositoryBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/Hll_complexRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/Hll_complexRepositoryBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/LanguagesRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/LanguagesRepositoryBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/Lng_versionsRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/Lng_versionsRepositoryBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/LoginsRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/LoginsRepositoryBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/Ntn_filmsRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/Ntn_filmsRepositoryBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/Org_filmsRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/Org_filmsRepositoryBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/PersonsRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/PersonsRepositoryBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/PhotosRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/PhotosRepositoryBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/ProgrammingRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/ProgrammingRepositoryBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/RolesRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/RolesRepositoryBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/ScoresRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/ScoresRepositoryBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/SoundsRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/SoundsRepositoryBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/SubtitlesRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/SubtitlesRepositoryBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/TicketsRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/TicketsRepositoryBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/TrailersRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/TrailersRepositoryBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/UsersRepositoryBean.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/UsersRepositoryBean.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/be/david/school/Cmp_featuresPersistenceTest.java" afterPath="$PROJECT_DIR$/src/test/java/be/david/school/Cmp_featuresPersistenceTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/be/david/school/CountryPersistenceTest.java" afterPath="$PROJECT_DIR$/src/test/java/be/david/school/CountryPersistenceTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/be/david/school/CustomersPersistenceTest.java" afterPath="$PROJECT_DIR$/src/test/java/be/david/school/CustomersPersistenceTest.java" />
@@ -62,8 +177,40 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/be/david/school/TicketsPersistenceTest.java" afterPath="$PROJECT_DIR$/src/test/java/be/david/school/TicketsPersistenceTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/be/david/school/TrailersPersistenceTest.java" afterPath="$PROJECT_DIR$/src/test/java/be/david/school/TrailersPersistenceTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/be/david/school/UsersPersistenceTest.java" afterPath="$PROJECT_DIR$/src/test/java/be/david/school/UsersPersistenceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/src/beans/Complex.java" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/src/beans/Complex.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/src/beans/Login.java" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/src/beans/Login.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/Kinepolis.xml" afterPath="$PROJECT_DIR$/src/test/resources/Kinepolis.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Kinepolis.xml" afterPath="$PROJECT_DIR$/target/test-classes/Kinepolis.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Cmp_features.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/Cmp_features.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Country.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/Country.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Customers.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/Customers.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Discounts.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/Discounts.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Distributors.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/Distributors.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/FilmStatus.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/Enums/FilmStatus.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Flm_awards.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/Flm_awards.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Flm_crews.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/Flm_crews.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Flm_crewsId.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/Flm_crewsId.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Flm_info.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/Flm_info.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Flm_ratings.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/Flm_ratings.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Flm_reviews.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/Flm_reviews.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Flm_scores.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/Flm_scores.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Formats.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/Formats.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Gender.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/Enums/Gender.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Genres.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/Genres.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Hll_complex.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/Hll_complex.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Hll_complexId.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/Hll_complexId.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Languages.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/Languages.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Lng_versions.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/Lng_versions.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Logins.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/Logins.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Ntn_films.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/Ntn_films.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Org_films.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/Org_films.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Persons.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/Persons.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Programming.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/Programming.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Roles.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/Roles.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Scores.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/Scores.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Sounds.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/Sounds.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Subtitles.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/Subtitles.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Tickets.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/Tickets.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/Users.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/Users.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/be/david/school/model/YesNo.java" afterPath="$PROJECT_DIR$/src/main/java/be/david/school/Enums/YesNo.java" />
     </list>
     <ignored path="SchoolProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -94,101 +241,87 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Complex.class" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/classes/beans/Complex.class">
+      <file leaf-file-name="DropDown.class" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/classes/html/DropDown.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+            <state relative-caret-position="176">
+              <caret line="16" column="34" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Form.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/html/Form.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
               <folding>
-                <element signature="e#0#10670#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#833#834#0" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
+                <element signature="e#1223#1224#0" expanded="true" />
+                <element signature="e#1286#1287#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DesignWrapper.class" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/classes/design/DesignWrapper.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="611">
-              <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BarcodeTicket.class" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/classes/servlets/BarcodeTicket.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="13" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#4315#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BarcodeTicket.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/servlets/BarcodeTicket.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="background.gif" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/webapp/images/background.gif">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bg.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/webapp/images/bg.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Discounts.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/model/Discounts.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="showTrailer.class" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/classes/servlets/showTrailer.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#1776#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/webapp/modules/administration/index.jsp">
+      <file leaf-file-name="Form.class" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/classes/html/Form.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="30" column="24" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="24" />
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="YesNo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/Enums/YesNo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Link.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/html/Link.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="87" column="25" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gender.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/Enums/Gender.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FormMethods.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/Enums/FormMethods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Table.class" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/classes/html/Table.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="740">
+              <caret line="177" column="0" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -201,6 +334,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -215,35 +349,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/be/david/school/repository/TrailersRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/david/school/repository/UsersRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/david/school/repository/TicketsRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/david/school/repository/CustomersRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/david/school/repository/ScoresRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/david/school/repository/PhotosRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/david/school/repository/RolesRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/david/school/repository/ProgrammingRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/david/school/repository/LoginsRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/david/school/repository/PersonsRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/david/school/repository/HllcomplexRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/david/school/repository/Hll_complexRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/david/school/repository/Flm_awardsRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/david/school/repository/Flm_crewsRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/david/school/repository/Flm_reviewsRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/david/school/repository/Flm_scoresRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/david/school/bean/CustomersRepositoryBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/david/school/bean/Flm_awardsRepositoryBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/david/school/bean/Flm_crewsRepositoryBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/david/school/bean/Flm_reviewsRepositoryBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/david/school/bean/Flm_scoresRepositoryBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/david/school/bean/Hll_complexRepositoryBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/david/school/model/Customers.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/david/school/bean/LoginsRepositoryBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/david/school/bean/PersonsRepositoryBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/david/school/bean/PhotosRepositoryBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/david/school/bean/ProgrammingRepositoryBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/david/school/bean/UsersRepositoryBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/david/school/bean/TrailersRepositoryBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/david/school/bean/TicketsRepositoryBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/david/school/bean/ScoresRepositoryBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/david/school/bean/RolesRepositoryBean.java" />
@@ -263,9 +368,38 @@
         <option value="$PROJECT_DIR$/src/test/java/be/david/school/Flm_awardsPersistenceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/be/david/school/UsersPersistenceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/be/david/school/LoginsPersistenceTest.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/Kinepolis.xml" />
         <option value="$PROJECT_DIR$/src/test/java/be/david/school/TicketsPersistenceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/david/school/servlets/BarcodeTicket.java" />
+        <option value="$PROJECT_DIR$/src/webapp/WEB-INF/classes/beans/Complex.class" />
+        <option value="$PROJECT_DIR$/src/main/java/be/david/school/model/Tickets.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/david/school/model/TrailersId.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/david/school/model/Flm_scores.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/david/school/model/Flm_reviews.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/david/school/model/Trailers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/david/school/model/Photos.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/david/school/model/PhotosId.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/david/school/model/Logins.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/Kinepolis.xml" />
+        <option value="$PROJECT_DIR$/src/webapp/WEB-INF/src/beans/Complex.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/david/school/design/Designwrapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/david/school/html/Dropdown.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/david/school/html/DropDown.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/david/school/html/Type.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/david/school/html/HtmlLanguages.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/david/school/html/LinkTarget.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/david/school/html/FormMethod.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/david/school/html/FormMethods.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/david/school/Enums/FormMethods.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/david/school/Enums/HtmlLanguages.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/david/school/Enums/Targets.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/david/school/Enums/OnOff.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/david/school/Enums/YesNo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/david/school/Enums/Gender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/david/school/Enums/FilmStatus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/david/school/Enums/Encryption.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/david/school/html/Form.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/david/school/interfaces/FormElement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/david/school/html/Link.java" />
       </list>
     </option>
   </component>
@@ -291,10 +425,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="22" />
-    <option name="y" value="658" />
-    <option name="width" value="1920" />
-    <option name="height" value="1097" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1932" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -321,8 +455,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -389,8 +523,26 @@
               <option name="myItemId" value="classes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="servlets" />
+              <option name="myItemId" value="SchoolProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SchoolProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -411,12 +563,178 @@
               <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemId" value="SchoolProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SchoolProject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SchoolProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SchoolProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SchoolProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SchoolProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SchoolProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SchoolProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="school" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="servlets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SchoolProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SchoolProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="school" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SchoolProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SchoolProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="school" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="interfaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SchoolProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SchoolProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="school" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -438,15 +756,45 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
+              <option name="myItemId" value="school" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Enums" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SchoolProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SchoolProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="school" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -468,277 +816,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
+              <option name="myItemId" value="school" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="beans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="complex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="administration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="school" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="servlets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SchoolProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="school" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -757,6 +847,18 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="DDL Data Source&#10;Oracle" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitProjects\SchoolProject\src\webapp\WEB-INF" />
+      <recent name="D:\GitProjects\SchoolProject\Data" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="be.david.school" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="be.david.school" />
+      <recent name="be.david.school.bean" />
+      <recent name="be.david.school.repository" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\GitProjects\SchoolProject\src\webapp" />
       <recent name="D:\GitProjects\SchoolProject\src\main\java\be\david\school" />
@@ -764,18 +866,9 @@
       <recent name="D:\GitProjects\SchoolProject\src\test\java\be\david\school" />
       <recent name="D:\GitProjects\SchoolProject\src\test\resources" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="be.david.school" />
-      <recent name="be.david.school.bean" />
-      <recent name="be.david.school.repository" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\GitProjects\SchoolProject\src\webapp\WEB-INF" />
-      <recent name="D:\GitProjects\SchoolProject\Data" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProgrammingPersistenceTest.FindAllProgramming">
-    <configuration default="false" name="CustomersPersistenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UsersPersistenceTest">
+    <configuration default="false" name="Cmp_featuresPersistenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="be.david.school.*" />
@@ -786,7 +879,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="be.david.school" />
-      <option name="MAIN_CLASS_NAME" value="be.david.school.CustomersPersistenceTest" />
+      <option name="MAIN_CLASS_NAME" value="be.david.school.Cmp_featuresPersistenceTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -801,7 +894,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="CustomersPersistenceTest.FindAllCountries" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Cmp_featuresPersistenceTest.FindAllCmp_features" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="be.david.school.*" />
@@ -812,8 +905,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="be.david.school" />
-      <option name="MAIN_CLASS_NAME" value="be.david.school.CustomersPersistenceTest" />
-      <option name="METHOD_NAME" value="FindAllCountries" />
+      <option name="MAIN_CLASS_NAME" value="be.david.school.Cmp_featuresPersistenceTest" />
+      <option name="METHOD_NAME" value="FindAllCmp_features" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -827,7 +920,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="Hll_complexPersistenceTest.FindAllHll_complex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="TrailersPersistenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="be.david.school.*" />
@@ -838,33 +931,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="be.david.school" />
-      <option name="MAIN_CLASS_NAME" value="be.david.school.Hll_complexPersistenceTest" />
-      <option name="METHOD_NAME" value="FindAllHll_complex" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="Hll_complexPersistenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="be.david.school.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SchoolProject" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="be.david.school" />
-      <option name="MAIN_CLASS_NAME" value="be.david.school.Hll_complexPersistenceTest" />
+      <option name="MAIN_CLASS_NAME" value="be.david.school.TrailersPersistenceTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -879,7 +946,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="ProgrammingPersistenceTest.FindAllProgramming" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="TrailersPersistenceTest.FindAllTrailers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="be.david.school.*" />
@@ -890,9 +957,35 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="be.david.school" />
-      <option name="MAIN_CLASS_NAME" value="be.david.school.ProgrammingPersistenceTest" />
-      <option name="METHOD_NAME" value="FindAllProgramming" />
+      <option name="MAIN_CLASS_NAME" value="be.david.school.TrailersPersistenceTest" />
+      <option name="METHOD_NAME" value="FindAllTrailers" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="UsersPersistenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="be.david.school.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SchoolProject" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="be.david.school" />
+      <option name="MAIN_CLASS_NAME" value="be.david.school.UsersPersistenceTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -1320,19 +1413,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CustomersPersistenceTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CustomersPersistenceTest.FindAllCountries" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Hll_complexPersistenceTest.FindAllHll_complex" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Hll_complexPersistenceTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ProgrammingPersistenceTest.FindAllProgramming" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.Cmp_featuresPersistenceTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Cmp_featuresPersistenceTest.FindAllCmp_features" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TrailersPersistenceTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TrailersPersistenceTest.FindAllTrailers" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.UsersPersistenceTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ProgrammingPersistenceTest.FindAllProgramming" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Hll_complexPersistenceTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Hll_complexPersistenceTest.FindAllHll_complex" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CustomersPersistenceTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CustomersPersistenceTest.FindAllCountries" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.UsersPersistenceTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TrailersPersistenceTest.FindAllTrailers" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TrailersPersistenceTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Cmp_featuresPersistenceTest.FindAllCmp_features" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Cmp_featuresPersistenceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1357,6 +1450,9 @@
       <workItem from="1471465151730" duration="550000" />
       <workItem from="1471465744269" duration="6990000" />
       <workItem from="1471503093728" duration="8452000" />
+      <workItem from="1471785282785" duration="788000" />
+      <workItem from="1471788158434" duration="7254000" />
+      <workItem from="1471796980646" duration="5121000" />
     </task>
     <task id="LOCAL-00001" summary="Added Files - FILM_RATINGS and COUNTRIES">
       <created>1471268057553</created>
@@ -1390,75 +1486,107 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Cmp_featuresPersistenceTest_FindAllCmp_featuresLanguages - 2016.08.17 at 23h 05m 57s.xml">
-      <configuration name="Cmp_featuresPersistenceTest.FindAllCmp_featuresLanguages" configurationId="JUnit" />
+    <history-entry file="TrailersPersistenceTest_FindAllTrailers - 2016.08.21 at 16h 46m 18s.xml">
+      <configuration name="TrailersPersistenceTest.FindAllTrailers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomersPersistenceTest - 2016.08.18 at 00h 08m 05s.xml">
-      <configuration name="CustomersPersistenceTest" configurationId="JUnit" />
+    <history-entry file="TrailersPersistenceTest_FindAllTrailers - 2016.08.21 at 16h 47m 05s.xml">
+      <configuration name="TrailersPersistenceTest.FindAllTrailers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomersPersistenceTest - 2016.08.18 at 00h 09m 35s.xml">
-      <configuration name="CustomersPersistenceTest" configurationId="JUnit" />
+    <history-entry file="TrailersPersistenceTest_FindAllTrailers - 2016.08.21 at 16h 47m 32s.xml">
+      <configuration name="TrailersPersistenceTest.FindAllTrailers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomersPersistenceTest_FindAllCountries - 2016.08.18 at 00h 08m 58s.xml">
-      <configuration name="CustomersPersistenceTest.FindAllCountries" configurationId="JUnit" />
+    <history-entry file="TrailersPersistenceTest_FindAllTrailers - 2016.08.21 at 16h 48m 03s.xml">
+      <configuration name="TrailersPersistenceTest.FindAllTrailers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Hll_complexPersistenceTest - 2016.08.18 at 00h 18m 15s.xml">
-      <configuration name="Hll_complexPersistenceTest" configurationId="JUnit" />
+    <history-entry file="TrailersPersistenceTest_FindAllTrailers - 2016.08.21 at 16h 48m 31s.xml">
+      <configuration name="TrailersPersistenceTest.FindAllTrailers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Hll_complexPersistenceTest_FindAllHll_complex - 2016.08.18 at 00h 16m 55s.xml">
-      <configuration name="Hll_complexPersistenceTest.FindAllHll_complex" configurationId="JUnit" />
+    <history-entry file="TrailersPersistenceTest_FindAllTrailers - 2016.08.21 at 16h 49m 15s.xml">
+      <configuration name="TrailersPersistenceTest.FindAllTrailers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Hll_complexPersistenceTest_FindAllHll_complex - 2016.08.18 at 00h 17m 48s.xml">
-      <configuration name="Hll_complexPersistenceTest.FindAllHll_complex" configurationId="JUnit" />
+    <history-entry file="TrailersPersistenceTest_FindAllTrailers - 2016.08.21 at 16h 49m 38s.xml">
+      <configuration name="TrailersPersistenceTest.FindAllTrailers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProgrammingPersistenceTest_FindAllProgramming - 2016.08.18 at 00h 22m 52s.xml">
-      <configuration name="ProgrammingPersistenceTest.FindAllProgramming" configurationId="JUnit" />
+    <history-entry file="TrailersPersistenceTest_FindAllTrailers - 2016.08.21 at 16h 50m 06s.xml">
+      <configuration name="TrailersPersistenceTest.FindAllTrailers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProgrammingPersistenceTest_FindAllProgramming - 2016.08.18 at 00h 23m 18s.xml">
-      <configuration name="ProgrammingPersistenceTest.FindAllProgramming" configurationId="JUnit" />
+    <history-entry file="TrailersPersistenceTest_FindAllTrailers - 2016.08.21 at 16h 50m 37s.xml">
+      <configuration name="TrailersPersistenceTest.FindAllTrailers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProgrammingPersistenceTest_FindAllProgramming - 2016.08.18 at 00h 25m 26s.xml">
-      <configuration name="ProgrammingPersistenceTest.FindAllProgramming" configurationId="JUnit" />
+    <history-entry file="UsersPersistenceTest - 2016.08.21 at 16h 50m 53s.xml">
+      <configuration name="UsersPersistenceTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45849000" />
+    <option name="totallyTimeSpent" value="59012000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="22" y="658" width="1920" height="1097" extended-state="0" />
+    <frame x="-9" y="-9" width="1932" height="1048" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21567568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30544746" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935324" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3124378" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21567568" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36240092" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31030577" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3124378" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3487753" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14109442" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935324" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497309" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20721206" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13885899" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09364908" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21567568" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13885899" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09364908" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36240092" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31030577" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3124378" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20721206" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32842582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1482,7 +1610,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/be/david/school/repository/Cmp_FeaturesRepository.java</url>
-          <line>14</line>
+          <line>13</line>
           <properties />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1501,385 +1629,226 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/Hll_complexRepositoryBean.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/Flm_crewsId.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/model/Customers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/LoginsRepositoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/PersonsRepositoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/PhotosRepositoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/ProgrammingRepositoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="72" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/CustomersRepositoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/UsersRepositoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
-          <folding>
-            <element signature="e#462#463#0" expanded="false" />
-            <element signature="e#553#554#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/TrailersRepositoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/TicketsRepositoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/model/Scores.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
+        <state relative-caret-position="10">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/ScoresRepositoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
-          <folding />
+    <entry file="dbDummy://dbtable:/231f8f6f/c77bf1e2-6ce9-4e27-ba7a-93654e8c8717/KINEPOLIS.FLM_SCORES">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/be/david/school/CountryPersistenceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/be/david/school/CustomersPersistenceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/be/david/school/Hll_complexPersistenceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/model/Programming.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1504#1505#0" expanded="false" />
-            <element signature="e#1533#1534#0" expanded="false" />
-            <element signature="e#1574#1575#0" expanded="false" />
-            <element signature="e#1610#1611#0" expanded="false" />
-            <element signature="e#1645#1646#0" expanded="false" />
-            <element signature="e#1671#1672#0" expanded="false" />
-            <element signature="e#1714#1715#0" expanded="false" />
-            <element signature="e#1744#1745#0" expanded="false" />
-            <element signature="e#1779#1780#0" expanded="false" />
-            <element signature="e#1808#1809#0" expanded="false" />
-            <element signature="e#1854#1855#0" expanded="false" />
-            <element signature="e#1890#1891#0" expanded="false" />
-            <element signature="e#1936#1937#0" expanded="false" />
-            <element signature="e#1971#1972#0" expanded="false" />
-            <element signature="e#2034#2035#0" expanded="false" />
-            <element signature="e#2082#2083#0" expanded="false" />
-            <element signature="e#2118#2119#0" expanded="false" />
-            <element signature="e#2150#2151#0" expanded="false" />
-            <element signature="e#2200#2201#0" expanded="false" />
-            <element signature="e#2242#2243#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/be/david/school/ProgrammingPersistenceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/Flm_scores.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/repository/PersonsRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/Flm_crews.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        <state relative-caret-position="318">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/be/david/school/PersonsPersistenceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/Flm_reviews.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        <state relative-caret-position="282">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/model/Roles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
+    <entry file="dbDummy://dbtable:/231f8f6f/c77bf1e2-6ce9-4e27-ba7a-93654e8c8717/KINEPOLIS.TRAILERS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/repository_bean/RolesRepositoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
-          <folding>
-            <element signature="e#462#463#0" expanded="false" />
-            <element signature="e#553#554#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/be/david/school/RolesPersistenceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/be/david/school/ScoresPersistenceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/be/david/school/Flm_crewsPersistenceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/be/david/school/Flm_scoresPersistenceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/be/david/school/Flm_reviewsPersistenceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/model/Flm_scores.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/webapp/javadoc/beans/Complex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4710">
-          <caret line="168" column="6" selection-start-line="168" selection-start-column="6" selection-end-line="168" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/classes/beans/StaticPage.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/Trailers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="15" column="50" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="50" />
           <folding>
-            <element signature="e#0#2064#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/model/Flm_reviews.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/Photos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="748">
+          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+          <folding>
+            <element signature="e#1095#1096#0" expanded="true" />
+            <element signature="e#1145#1146#0" expanded="true" />
+            <element signature="e#1185#1186#0" expanded="true" />
+            <element signature="e#1219#1220#0" expanded="true" />
+            <element signature="e#1251#1252#0" expanded="true" />
+            <element signature="e#1299#1300#0" expanded="true" />
+            <element signature="e#1341#1342#0" expanded="true" />
+            <element signature="e#1383#1384#0" expanded="true" />
+            <element signature="e#1421#1422#0" expanded="true" />
+            <element signature="e#1483#1484#0" expanded="true" />
+            <element signature="e#1537#1538#0" expanded="true" />
+            <element signature="e#1571#1572#0" expanded="true" />
+            <element signature="e#1604#1605#0" expanded="true" />
+            <element signature="e#1653#1654#0" expanded="true" />
+            <element signature="e#1697#1698#0" expanded="true" />
+            <element signature="e#1732#1733#0" expanded="true" />
+            <element signature="e#1763#1764#0" expanded="true" />
+            <element signature="e#1811#1812#0" expanded="true" />
+            <element signature="e#1851#1852#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/be/david/school/TrailersPersistenceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/PhotosId.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="58">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/be/david/school/PhotosPersistenceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/dbmodel/Logins.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/be/david/school/Flm_awardsPersistenceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/be/david/school/UsersPersistenceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/be/david/school/LoginsPersistenceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/insertKinepolis.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="566" column="0" selection-start-line="566" selection-start-column="0" selection-end-line="572" selection-end-column="1" />
+        <state relative-caret-position="-1414">
+          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/Kinepolis.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="803">
-          <caret line="158" column="101" selection-start-line="158" selection-start-column="101" selection-end-line="158" selection-end-column="101" />
+        <state relative-caret-position="212">
+          <caret line="153" column="32" selection-start-line="153" selection-start-column="32" selection-end-line="153" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/be/david/school/TicketsPersistenceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/classes/beans/Complex.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="88">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/sun-web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/classes/servlets/showTrailer.class">
+    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/src/beans/FilmInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#1776#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#24234#24235#0" expanded="false" />
+            <element signature="e#24270#24271#0" expanded="false" />
+            <element signature="e#24305#24306#0" expanded="false" />
+            <element signature="e#24332#24333#0" expanded="false" />
+            <element signature="e#24378#24379#0" expanded="false" />
+            <element signature="e#24412#24413#0" expanded="false" />
+            <element signature="e#24449#24450#0" expanded="false" />
+            <element signature="e#24478#24479#0" expanded="false" />
+            <element signature="e#24528#24529#0" expanded="false" />
+            <element signature="e#24566#24567#0" expanded="false" />
+            <element signature="e#24605#24606#0" expanded="false" />
+            <element signature="e#24636#24637#0" expanded="false" />
+            <element signature="e#24690#24691#0" expanded="false" />
+            <element signature="e#24732#24733#0" expanded="false" />
+            <element signature="e#24772#24773#0" expanded="false" />
+            <element signature="e#24804#24805#0" expanded="false" />
+            <element signature="e#24860#24861#0" expanded="false" />
+            <element signature="e#24904#24905#0" expanded="false" />
+            <element signature="e#24948#24949#0" expanded="false" />
+            <element signature="e#24984#24985#0" expanded="false" />
+            <element signature="e#25048#25049#0" expanded="false" />
+            <element signature="e#25100#25101#0" expanded="false" />
+            <element signature="e#25138#25139#0" expanded="false" />
+            <element signature="e#25168#25169#0" expanded="false" />
+            <element signature="e#25220#25221#0" expanded="false" />
+            <element signature="e#25260#25261#0" expanded="false" />
+            <element signature="e#25304#25305#0" expanded="false" />
+            <element signature="e#25340#25341#0" expanded="false" />
+            <element signature="e#25404#25405#0" expanded="false" />
+            <element signature="e#25456#25457#0" expanded="false" />
+            <element signature="e#25499#25500#0" expanded="false" />
+            <element signature="e#25534#25535#0" expanded="false" />
+            <element signature="e#25596#25597#0" expanded="false" />
+            <element signature="e#25646#25647#0" expanded="false" />
+            <element signature="e#25685#25686#0" expanded="false" />
+            <element signature="e#25716#25717#0" expanded="false" />
+            <element signature="e#25770#25771#0" expanded="false" />
+            <element signature="e#25812#25813#0" expanded="false" />
+            <element signature="e#25850#25851#0" expanded="false" />
+            <element signature="e#25880#25881#0" expanded="false" />
+            <element signature="e#25932#25933#0" expanded="false" />
+            <element signature="e#25972#25973#0" expanded="false" />
+            <element signature="e#26016#26017#0" expanded="false" />
+            <element signature="e#26047#26048#0" expanded="false" />
+            <element signature="e#26111#26112#0" expanded="false" />
+            <element signature="e#26163#26164#0" expanded="false" />
+            <element signature="e#26198#26199#0" expanded="false" />
+            <element signature="e#26225#26226#0" expanded="false" />
+            <element signature="e#26271#26272#0" expanded="false" />
+            <element signature="e#26305#26306#0" expanded="false" />
+            <element signature="e#26353#26354#0" expanded="false" />
+            <element signature="e#26393#26394#0" expanded="false" />
+            <element signature="e#26465#26466#0" expanded="false" />
+            <element signature="e#26525#26526#0" expanded="false" />
+            <element signature="e#26560#26561#0" expanded="false" />
+            <element signature="e#26587#26588#0" expanded="false" />
+            <element signature="e#26633#26634#0" expanded="false" />
+            <element signature="e#26667#26668#0" expanded="false" />
+            <element signature="e#26702#26703#0" expanded="false" />
+            <element signature="e#26729#26730#0" expanded="false" />
+            <element signature="e#26775#26776#0" expanded="false" />
+            <element signature="e#26809#26810#0" expanded="false" />
+            <element signature="e#26846#26847#0" expanded="false" />
+            <element signature="e#26875#26876#0" expanded="false" />
+            <element signature="e#26960#26961#0" expanded="false" />
+            <element signature="e#26988#26989#0" expanded="false" />
+            <element signature="e#27106#27107#0" expanded="false" />
+            <element signature="e#27142#27143#0" expanded="false" />
+            <element signature="e#27180#27181#0" expanded="false" />
+            <element signature="e#27209#27210#0" expanded="false" />
+            <element signature="e#27260#27261#0" expanded="false" />
+            <element signature="e#27298#27299#0" expanded="false" />
+            <element signature="e#27334#27335#0" expanded="false" />
+            <element signature="e#27361#27362#0" expanded="false" />
+            <element signature="e#27408#27409#0" expanded="false" />
+            <element signature="e#27442#27443#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/classes/servlets/BarcodeTicket.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#4315#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/servlets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1891,54 +1860,351 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/src/servlets/showTrailer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/servlets/BarcodeTicket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="154">
           <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/webapp/images/background.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/webapp/images/bg.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/model/Discounts.java">
+    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/src/servlets/showImage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/classes/beans/Complex.class">
+    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/src/servlets/BarcodeTicket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#10670#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-2874">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/classes/design/DesignWrapper.class">
+    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/sun-web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        <state relative-caret-position="-444">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/webapp/modules/administration/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/beans/StaticPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/classes/beans/StaticPage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1010">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/design/Designwrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/html/DropDown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/html/Image.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/html/Input.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/html/Type.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/classes/html/Image.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/classes/html/Input.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/classes/html/Type.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/html/Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webapp/modules/trailer/ListTrailer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/classes/beans/Trailer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="227" column="0" selection-start-line="227" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#8604#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/src/beans/Complex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="211" column="0" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
+          <folding>
+            <element signature="e#12955#12956#0" expanded="false" />
+            <element signature="e#12991#12992#0" expanded="false" />
+            <element signature="e#13031#13032#0" expanded="false" />
+            <element signature="e#13063#13064#0" expanded="false" />
+            <element signature="e#13119#13120#0" expanded="false" />
+            <element signature="e#13163#13164#0" expanded="false" />
+            <element signature="e#13198#13199#0" expanded="false" />
+            <element signature="e#13225#13226#0" expanded="false" />
+            <element signature="e#13271#13272#0" expanded="false" />
+            <element signature="e#13305#13306#0" expanded="false" />
+            <element signature="e#13342#13343#0" expanded="false" />
+            <element signature="e#13371#13372#0" expanded="false" />
+            <element signature="e#13421#13422#0" expanded="false" />
+            <element signature="e#13459#13460#0" expanded="false" />
+            <element signature="e#13496#13497#0" expanded="false" />
+            <element signature="e#13525#13526#0" expanded="false" />
+            <element signature="e#13575#13576#0" expanded="false" />
+            <element signature="e#13613#13614#0" expanded="false" />
+            <element signature="e#13648#13649#0" expanded="false" />
+            <element signature="e#13675#13676#0" expanded="false" />
+            <element signature="e#13721#13722#0" expanded="false" />
+            <element signature="e#13755#13756#0" expanded="false" />
+            <element signature="e#13792#13793#0" expanded="false" />
+            <element signature="e#13821#13822#0" expanded="false" />
+            <element signature="e#13871#13872#0" expanded="false" />
+            <element signature="e#13909#13910#0" expanded="false" />
+            <element signature="e#13958#13959#0" expanded="false" />
+            <element signature="e#13999#14000#0" expanded="false" />
+            <element signature="e#14172#14173#0" expanded="false" />
+            <element signature="e#14200#14201#0" expanded="false" />
+            <element signature="e#14249#14250#0" expanded="false" />
+            <element signature="e#14285#14286#0" expanded="false" />
+            <element signature="e#14334#14335#0" expanded="false" />
+            <element signature="e#14370#14371#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/src/beans/Trailer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="243" column="34" selection-start-line="243" selection-start-column="30" selection-end-line="243" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/classes/html/Table.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="177" column="0" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/classes/html/DropDown.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/html/AutoComplete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/Enums/FormMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/Enums/HtmlLanguages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/Enums/Targets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/Enums/OnOff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/Enums/YesNo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/Enums/Encryption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/classes/html/Link.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/Enums/FilmStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/Enums/Gender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/interfaces/FormElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/html/Link.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="87" column="25" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/david/school/html/Form.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#1223#1224#0" expanded="true" />
+            <element signature="e#1286#1287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/classes/html/Form.class">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="30" column="24" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="24" />
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>

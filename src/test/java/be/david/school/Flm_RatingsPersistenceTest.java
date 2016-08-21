@@ -1,7 +1,7 @@
 package be.david.school;
 
 import be.david.school.repository_bean.Flm_ratingsRepositoryBean;
-import be.david.school.model.Flm_ratings;
+import be.david.school.dbmodel.Flm_ratings;
 import be.david.school.repository.Flm_ratingsRepository;
 import org.junit.Rule;
 import org.junit.Test;

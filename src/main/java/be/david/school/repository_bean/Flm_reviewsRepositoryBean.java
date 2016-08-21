@@ -1,6 +1,6 @@
 package be.david.school.repository_bean;
 
-import be.david.school.model.Flm_reviews;
+import be.david.school.dbmodel.Flm_reviews;
 import be.david.school.repository.Flm_reviewsRepository;
 
 import javax.persistence.EntityManager;

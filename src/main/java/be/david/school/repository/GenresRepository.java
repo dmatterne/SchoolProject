@@ -1,7 +1,6 @@
 package be.david.school.repository;
 
-import be.david.school.model.Country;
-import be.david.school.model.Genres;
+import be.david.school.dbmodel.Genres;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
 package be.david.school.repository_bean;
 
-import be.david.school.model.Cmp_features;
+import be.david.school.dbmodel.Cmp_features;
 import be.david.school.repository.Cmp_FeaturesRepository;
 
 import javax.persistence.EntityManager;

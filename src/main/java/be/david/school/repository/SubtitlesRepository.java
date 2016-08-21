@@ -1,7 +1,6 @@
 package be.david.school.repository;
 
-import be.david.school.model.Flm_ratings;
-import be.david.school.model.Subtitles;
+import be.david.school.dbmodel.Subtitles;
 
 import java.util.List;
 
