@@ -22,7 +22,12 @@ public enum InputTypes {
     ,TIME("time")
     ,DATETIME("datetime")
     ,DATETIMELOCAL("datetime-local")
-    ,COLOR("color");
+    ,COLOR("color")
+    ,FILE("file")
+    ,HIDDEN("hidden")
+    ,RESET("reset");
+
+
 
     private final String type;
 
