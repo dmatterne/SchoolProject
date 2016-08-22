@@ -7,27 +7,37 @@ import be.david.school.interfaces.FormElement;
  */
 public class Image implements FormElement{
 
-    private String alt_text;
-    private String height;
-    private boolean ismap;
-    private String longdesc;
     private String src;
-    private String sizes;
-    private String srcset;
+    private String height;
     private String width;
+    private String alt_text;
+
+    private boolean ismap;
+//    private String longdesc;
+//    private String sizes;
+//    private String srcset;
     private String usemap;
 
-    public Image(String alt_text, String height, String src, String width) {
-        this.alt_text = alt_text;
-        this.height = height;
+    public Image(String src, String height, String width, String alt_text) {
         this.src = src;
+        this.height = height;
         this.width = width;
+        this.alt_text = alt_text;
     }
+
 
 
 
     @Override
     public String getHtml() {
-        return null;
+
+        String img = "<img src='" + this.src +
+                "' height='" + this.height +
+                "' width='" + this. width +
+                "' alt='" + this.alt_text +
+                "'>";
+
+
+        return img;
     }
 }
