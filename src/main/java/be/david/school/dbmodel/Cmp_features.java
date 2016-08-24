@@ -11,7 +11,7 @@ import java.util.Collection;
  */
 @NamedQueries({
     @NamedQuery(
-            name = Cmp_features.GENERATE_DD, query = "SELECT c.cmf_id AS KEY_VALUE, c.cmf_name AS VALUE FROM Cmp_features"
+            name = Cmp_features.GENERATE_DD, query = "SELECT c.cmf_id AS KEY_VALUE, c.cmf_name AS VALUE FROM Cmp_features c"
             )
 })
 @Entity

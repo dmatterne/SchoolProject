@@ -8,9 +8,14 @@ import java.time.LocalDate;
 /**
  * Created by David on 17/08/2016.
  */
+@NamedQueries({
+    @NamedQuery(name=Users.FIND_ALL, query = "SELECT u FROM USERS u")
+})
 @Entity
 @Table(name = "USERS", uniqueConstraints = @UniqueConstraint(name="pk_users", columnNames = {"USR_ID"}))
 public class Users {
+
+    public static final String FIND_ALL = "Users.findAll" ;
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SEQ_USR")
