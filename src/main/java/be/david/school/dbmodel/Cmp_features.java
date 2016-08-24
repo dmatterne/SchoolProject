@@ -1,5 +1,7 @@
 package be.david.school.dbmodel;
 
+import be.david.school.interfaces.DropDownMarker;
+
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -7,9 +9,16 @@ import java.util.Collection;
 /**
  * Created by David on 15/08/2016.
  */
+@NamedQueries({
+    @NamedQuery(
+            name = Cmp_features.GENERATE_DD, query = "SELECT c.cmf_id AS KEY_VALUE, c.cmf_name AS VALUE FROM Cmp_features"
+            )
+})
 @Entity
 @Table( name = "CMP_FEATURES", uniqueConstraints = @UniqueConstraint(name = "pr_cmp_features", columnNames = {"CMF_ID"}))
-public class Cmp_features {
+public class Cmp_features implements DropDownMarker {
+
+    public static final String GENERATE_DD = "Cmp_features.generateDD";
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SEQ_CMF")

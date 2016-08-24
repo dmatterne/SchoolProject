@@ -40,7 +40,7 @@ public abstract class PersistenceTest {
     @BeforeClass
     public static void initializeEntityManagerFactory() {
         logger.info("Creating EntityManagerFactory");
-        entityManagerFactory = Persistence.createEntityManagerFactory("KevinPu", properties());
+        entityManagerFactory = Persistence.createEntityManagerFactory("DavidPu", properties());
     }
 
     /**

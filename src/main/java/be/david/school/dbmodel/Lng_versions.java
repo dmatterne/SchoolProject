@@ -1,5 +1,7 @@
 package be.david.school.dbmodel;
 
+import be.david.school.interfaces.DropDownMarker;
+
 import javax.persistence.*;
 import java.time.LocalDate;
 
@@ -8,7 +10,7 @@ import java.time.LocalDate;
  */
 @Entity
 @Table(name = "LNG_VERSIONS", uniqueConstraints = @UniqueConstraint(name = "pr_lng_versions", columnNames = {"LNV_ID"}))
-public class Lng_versions {
+public class Lng_versions implements DropDownMarker {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SEQ_LNV")

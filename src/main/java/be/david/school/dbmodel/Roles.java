@@ -1,5 +1,7 @@
 package be.david.school.dbmodel;
 
+import be.david.school.interfaces.DropDownMarker;
+
 import javax.persistence.*;
 
 /**
@@ -7,7 +9,7 @@ import javax.persistence.*;
  */
 @Entity
 @Table(name = "ROLES", uniqueConstraints = @UniqueConstraint(name = "pk_roles", columnNames = {"RLS_ID"}))
-public class Roles {
+public class Roles implements DropDownMarker {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SEQ_RLS")

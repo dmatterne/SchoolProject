@@ -1,6 +1,7 @@
 package be.david.school.dbmodel;
 
 import be.david.school.Enums.YesNo;
+import be.david.school.interfaces.DropDownMarker;
 
 import javax.persistence.*;
 
@@ -9,7 +10,7 @@ import javax.persistence.*;
  */
 @Entity
 @Table(name = "FLM_REVIEWS", uniqueConstraints = @UniqueConstraint(name = "pk_flm_reviews", columnNames = {"FRE_ID"}))
-public class Flm_reviews {
+public class Flm_reviews implements DropDownMarker {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SEQ_FRE")

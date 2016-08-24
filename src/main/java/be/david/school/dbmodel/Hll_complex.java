@@ -1,6 +1,7 @@
 package be.david.school.dbmodel;
 
 import be.david.school.Enums.YesNo;
+import be.david.school.interfaces.DropDownMarker;
 
 import javax.persistence.*;
 
@@ -9,7 +10,7 @@ import javax.persistence.*;
  */
 @Entity //@IdClass(Hll_complexId.class)
 @Table(name = "HLL_COMPLEX", uniqueConstraints = @UniqueConstraint(name="pr_hll_complex", columnNames = {"HLC_ID","CMF_ID"}))
-public class Hll_complex {
+public class Hll_complex implements DropDownMarker {
 
     @EmbeddedId
     private Hll_complexId id;
