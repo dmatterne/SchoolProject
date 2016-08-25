@@ -9,13 +9,15 @@ import java.time.LocalDate;
  * Created by David on 17/08/2016.
  */
 @NamedQueries({
-    @NamedQuery(name=Users.FIND_ALL, query = "SELECT u FROM USERS u")
+    @NamedQuery(name=Users.FIND_ALL, query = "SELECT u FROM Users u"),
+    @NamedQuery(name=Users.FIND_WITH_ID, query = "SELECT u FROM Users u WHERE u.usr_id = :uid")
 })
 @Entity
 @Table(name = "USERS", uniqueConstraints = @UniqueConstraint(name="pk_users", columnNames = {"USR_ID"}))
 public class Users {
 
     public static final String FIND_ALL = "Users.findAll" ;
+    public static final String FIND_WITH_ID = "Users.findWithId" ;
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SEQ_USR")

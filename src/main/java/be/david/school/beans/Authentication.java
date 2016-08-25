@@ -2,17 +2,22 @@ package be.david.school.beans;
 
 import be.david.school.dbmodel.Users;
 
+import javax.persistence.EntityManager;
+import javax.persistence.Id;
+import javax.persistence.TypedQuery;
 import java.sql.Date;
+import java.util.List;
 
 /**
  * Created by David on 24/08/2016.
  */
 public class Authentication {
 
-    private Id user_id;
+    //private Id user_id;
     private Users user;
     private Connection con;
     private boolean debug_mode = false;
+    private EntityManager em;
 
     public Authentication(Connection con) {
         this.con = con;
@@ -25,6 +30,11 @@ public class Authentication {
         }
 
         if(!user_id.equals("")) {
+
+            TypedQuery<Users> query = em.createNamedQuery(Users.FIND_WITH_ID, Users.class) .setParameter("uid", user_id).setMaxResults(1);
+            List<Users> usr = query.getResultList();
+
+
             con.getEm().find()
             this.user_id = new Id(user_id);
             this.getUserInfo();
